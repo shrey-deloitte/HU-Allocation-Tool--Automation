@@ -38,12 +38,12 @@ public class BrowserStarted {
     public void getNotify() throws InterruptedException {
         driver.findElement(By.xpath(Notification)).click();
         driver.findElement(By.xpath(Notification)).click();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
-        Thread.sleep(3000);
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20);
     }
     @Test(priority = 4)
     public void preferenceButton(){
         driver.findElement(By.xpath("//*[contains(text(),'Preference Form')]")).click();
+
     }
 }
 //    }
