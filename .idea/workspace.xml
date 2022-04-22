@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5bc8a104-282c-4b47-ab9f-65fd7879eac4" name="Changes" comment="Login_As_Linker">
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Google/Chrome/User Data/Default/Code Cache/js/00387b4fb55c9d4e_0" beforeDir="false" afterPath="$PROJECT_DIR$/../AppData/Local/Google/Chrome/User Data/Default/Code Cache/js/00387b4fb55c9d4e_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Google/Chrome/User Data/Default/Code Cache/js/09f0cdafb36a13da_0" beforeDir="false" afterPath="$PROJECT_DIR$/../AppData/Local/Google/Chrome/User Data/Default/Code Cache/js/09f0cdafb36a13da_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Google/Chrome/User Data/Default/Code Cache/js/7b2031a3bdc87e5c_0" beforeDir="false" afterPath="$PROJECT_DIR$/../AppData/Local/Google/Chrome/User Data/Default/Code Cache/js/7b2031a3bdc87e5c_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Google/Chrome/User Data/Default/Code Cache/js/9abff2468254a07b_0" beforeDir="false" afterPath="$PROJECT_DIR$/../AppData/Local/Google/Chrome/User Data/Default/Code Cache/js/9abff2468254a07b_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Google/Chrome/User Data/Default/Code Cache/js/b7a7c9744693a50e_0" beforeDir="false" afterPath="$PROJECT_DIR$/../AppData/Local/Google/Chrome/User Data/Default/Code Cache/js/b7a7c9744693a50e_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Google/Chrome/User Data/Default/Code Cache/js/f842d35c0bdb6cee_0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/JetBrains/IdeaIC2021.3/external_build_system/hu-allocation-tool--automation-master.78c2d873/modules/HU-Allocation-Tool--Automation-master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AppData/Local/JetBrains/IdeaIC2021.3/external_build_system/hu-allocation-tool--automation-master.78c2d873/modules/HU-Allocation-Tool--Automation-master.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/MSIP/mip/EXCEL.EXE/mip/telemetry-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/MSIP/mip/EXCEL.EXE/mip/telemetry-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/MSIP/mip/OUTLOOK.EXE/mip/telemetry-shm" beforeDir="false" afterPath="$PROJECT_DIR$/../AppData/Local/Microsoft/MSIP/mip/OUTLOOK.EXE/mip/telemetry-shm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/MSIP/mip/OUTLOOK.EXE/mip/telemetry-wal" beforeDir="false" afterPath="$PROJECT_DIR$/../AppData/Local/Microsoft/MSIP/mip/OUTLOOK.EXE/mip/telemetry-wal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/Office/16.0/Lync/Tracing/OCAddin/OCAddin-16.0.13801.20000-Office-x64ship-U.0.etl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/Office/OTele/excel.exe.db-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/Office/OTele/excel.exe.db-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/02de57adf362da403845ffeadb3d3a33533f19ae.tbres" beforeDir="false" afterPath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/02de57adf362da403845ffeadb3d3a33533f19ae.tbres" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/089d66ba04a8cec4bdc5267f42f39cf84278bb67.tbres" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/0a9eb2cbcf1382f5a15fe2dd146de4c7654aa079.tbres" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/0c9f2fb844ef4c1e9e5ab837c777e62aa1851ff8.tbres" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/113bd1ff484371dcff274f49cde0ffaf5e4f6262.tbres" beforeDir="false" afterPath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/113bd1ff484371dcff274f49cde0ffaf5e4f6262.tbres" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/1ef6385b823dd4f6f145a5bd11acb80ce40744be.tbres" beforeDir="false" afterPath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/1ef6385b823dd4f6f145a5bd11acb80ce40744be.tbres" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/2beaaa64518af8080e72984654b9bd721bd3ddfd.tbres" beforeDir="false" afterPath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/2beaaa64518af8080e72984654b9bd721bd3ddfd.tbres" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/316cdd617601f1f18e3af74dab1f6ad0ca566d6c.tbres" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/40c94bb857ef82f0f4d72fa0443e635e86e9d98f.tbres" beforeDir="false" afterPath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/40c94bb857ef82f0f4d72fa0443e635e86e9d98f.tbres" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/5c73ab1ea7af7bb581e4034240057994767707e9.tbres" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/7501aeff52a21d5bf5e9e108b91df8fc1179ffd5.tbres" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/75a1a3cdd726e1f64eea3b922436cf70f09b2d84.tbres" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/8e447a198134d8ec64f78dc62bb9d540dbf79f71.tbres" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/a30fe72d8cc2053029b3e0b01e2bf55ea038e5ec.tbres" beforeDir="false" afterPath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/a30fe72d8cc2053029b3e0b01e2bf55ea038e5ec.tbres" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/ab1f144e8307afd1362c914fd3d7186cf65eac6f.tbres" beforeDir="false" afterPath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/ab1f144e8307afd1362c914fd3d7186cf65eac6f.tbres" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/b3ad8ddd50d5e4c7569f7fb5b6ddfb582f680827.tbres" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/b474c62c5ccb47f5a99a57ec986b25297593f49c.tbres" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/b59399fa8126521d96fbef394a719a39764088a7.tbres" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/c4aae5918305c94f42174444d8f24c819df26a98.tbres" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/d17918b4d474fb0a3f3d741396e989c838766ce5.tbres" beforeDir="false" afterPath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/d17918b4d474fb0a3f3d741396e989c838766ce5.tbres" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/d5b0bed9411026ae11118c127288f01184d71612.tbres" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/e7b2e72a8f26adace0207fe42e1428f57c4f112c.tbres" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/eb237d171d4d0ea37f4a9a5bab1648a6025d632a.tbres" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/f3d29baa3238473bc233aaaaaba975276598b12e.tbres" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/f68e2eca0c3a9c455343e65ffeff5c361c2a52cf.tbres" beforeDir="false" afterPath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/f68e2eca0c3a9c455343e65ffeff5c361c2a52cf.tbres" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/fe0ffc46aa095b598b5607e0f2210903693e0bb8.tbres" beforeDir="false" afterPath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/fe0ffc46aa095b598b5607e0f2210903693e0bb8.tbres" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Packages/Microsoft.Windows.Search_cw5n1h2txyewy/AC/INetCache/ESR90OYQ/Charts[1].json" beforeDir="false" afterPath="$PROJECT_DIR$/../AppData/Local/Packages/Microsoft.Windows.Search_cw5n1h2txyewy/AC/INetCache/ESR90OYQ/Charts[1].json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Packages/Microsoft.Windows.Search_cw5n1h2txyewy/AC/INetCache/ESR90OYQ/locations[1].json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Packages/Microsoft.Windows.Search_cw5n1h2txyewy/AC/INetCache/N0A4INUS/locations[2].json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Packages/Microsoft.Windows.Search_cw5n1h2txyewy/AC/TokenBroker/Cache/26e6bbceac18ef8eec9c46f4ef1255a33ab7c848.tbres" beforeDir="false" afterPath="$PROJECT_DIR$/../AppData/Local/Packages/Microsoft.Windows.Search_cw5n1h2txyewy/AC/TokenBroker/Cache/26e6bbceac18ef8eec9c46f4ef1255a33ab7c848.tbres" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Packages/Microsoft.Windows.Search_cw5n1h2txyewy/AC/TokenBroker/Cache/3affa34d75a6581b12cf0b724dc62ed07a85dbfb.tbres" beforeDir="false" afterPath="$PROJECT_DIR$/../AppData/Local/Packages/Microsoft.Windows.Search_cw5n1h2txyewy/AC/TokenBroker/Cache/3affa34d75a6581b12cf0b724dc62ed07a85dbfb.tbres" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Packages/Microsoft.Windows.Search_cw5n1h2txyewy/AC/TokenBroker/Cache/e86d1e26308651854b5337cb1542a63b2cc9280b.tbres" beforeDir="false" afterPath="$PROJECT_DIR$/../AppData/Local/Packages/Microsoft.Windows.Search_cw5n1h2txyewy/AC/TokenBroker/Cache/e86d1e26308651854b5337cb1542a63b2cc9280b.tbres" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Packages/Microsoft.Windows.Search_cw5n1h2txyewy/AC/TokenBroker/Cache/fa42d4c386c4455934ae828d964adefa673ae234.tbres" beforeDir="false" afterPath="$PROJECT_DIR$/../AppData/Local/Packages/Microsoft.Windows.Search_cw5n1h2txyewy/AC/TokenBroker/Cache/fa42d4c386c4455934ae828d964adefa673ae234.tbres" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Packages/Microsoft.Windows.Search_cw5n1h2txyewy/AC/TokenBroker/Cache/fbaf94e759052658216786bfbabcdced1b67a5c2.tbres" beforeDir="false" afterPath="$PROJECT_DIR$/../AppData/Local/Packages/Microsoft.Windows.Search_cw5n1h2txyewy/AC/TokenBroker/Cache/fbaf94e759052658216786bfbabcdced1b67a5c2.tbres" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Packages/Microsoft.Windows.Search_cw5n1h2txyewy/LocalState/Flighting/FlightingLogging.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Temp/Diagnostics/EXCEL/App_1648888685280698500_CDF2AACF-0E58-400C-B484-8725F872DFB9.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Temp/Diagnostics/EXCEL/App_1648890250774423400_8D17465C-5D50-4871-8B5D-6B9D89174624.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Temp/Diagnostics/EXCEL/App_1648890768809864400_FEA5BAC7-09BE-488A-AA96-9C1F747F83EA.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Temp/Diagnostics/EXCEL/App_1648895610037775400_260360FB-78BC-4713-AFC4-455E764FEF53.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Temp/Diagnostics/EXCEL/App_1648895631071262800_663CE4E7-B146-4C2B-ADA8-D4AC07BEB9FD.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Temp/Outlook Logging/UcMapi_16_0_13801_21214-20220415T0812100387-19120.etl" beforeDir="false" afterPath="$PROJECT_DIR$/../AppData/Local/Temp/Outlook Logging/UcMapi_16_0_13801_21214-20220415T0812100387-19120.etl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IdeaProjects/HU_SELENIUM_TRACK/MINI_ASSIGNMENT_3/MINI_ASSIGNMENT_3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../IdeaProjects/HU_SELENIUM_TRACK/MINI_ASSIGNMENT_3/MINI_ASSIGNMENT_3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IdeaProjects/untitled/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IdeaProjects/untitled/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IdeaProjects/untitled/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IdeaProjects/untitled/untitled.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Outlook/~shampriya@deloitte.com.ost.tmp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="285xWRpGToqymU1udp7UsRTYlGJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HU_SELENIUMTRACK_MAVEN" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\shampriya\HU-Allocation-Tool--Automation-master\Driver" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.BrowserStarted">
+    <configuration name="BrowserStarted" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HU-Allocation-Tool--Automation-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Pages.LoginAsLinker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Pages.LoginAsLinker" />
+      <option name="MAIN_CLASS_NAME" value="Pages.LoginAsLinker.BrowserStarted" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BrowserStarted.setup" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HU-Allocation-Tool--Automation-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Pages.LoginAsLinker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Pages.LoginAsLinker" />
+      <option name="MAIN_CLASS_NAME" value="Pages.LoginAsLinker.BrowserStarted" />
+      <option name="METHOD_NAME" value="setup" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetNotification" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HU-Allocation-Tool--Automation-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Pages.LoginAsLinker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Pages.LoginAsLinker" />
+      <option name="MAIN_CLASS_NAME" value="Pages.LoginAsLinker.GetNotification" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetNotification.notification" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HU-Allocation-Tool--Automation-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Pages.LoginAsLinker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Pages.LoginAsLinker" />
+      <option name="MAIN_CLASS_NAME" value="Pages.LoginAsLinker.GetNotification" />
+      <option name="METHOD_NAME" value="notification" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadingExcel.readCells" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HU-Allocation-Tool--Automation-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Pages.LoginAsLinker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Pages.LoginAsLinker" />
+      <option name="MAIN_CLASS_NAME" value="Pages.LoginAsLinker.ReadingExcel" />
+      <option name="METHOD_NAME" value="readCells" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.BrowserStarted" />
+        <item itemvalue="TestNG.GetNotification" />
+        <item itemvalue="TestNG.GetNotification.notification" />
+        <item itemvalue="TestNG.BrowserStarted.setup" />
+        <item itemvalue="TestNG.ReadingExcel.readCells" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5bc8a104-282c-4b47-ab9f-65fd7879eac4" name="Changes" comment="" />
+      <created>1650520279627</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650520279627</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Login_As_Linker" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login_As_Linker" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Pages/LoginAsLinker/BrowserStarted.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
