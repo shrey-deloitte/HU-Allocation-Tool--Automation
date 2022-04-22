@@ -43,10 +43,16 @@ public class Test_Homepage {
         Thread.sleep(1000);
     }
 
-    //Checking 'Get Started Button
+    //Checking Get Started Button
     @Test(priority = 2)
     void GetStarted_Btn() throws InterruptedException {
         HomePage.GetStarted_btn(driver);
+        Thread.sleep(2000);
+    }
+
+    @Test(priority = 2)
+    void Check_members() throws InterruptedException{
+        HomePage.Check_members(driver);
         Thread.sleep(2000);
     }
 
