@@ -1,6 +1,7 @@
 package Tests;
 
 import Pages.LoginAsDirector.LoginPage;
+import Pages.LoginAsDirector.ProductTrackMainPage;
 import net.bytebuddy.build.Plugin;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -13,6 +14,7 @@ public class Tests {
     WebDriver driver;
     String HomeUrl="https://automatedhuallocation-ui-urtjok3rza-wl.a.run.app/";
     LoginPage loginPage;
+    ProductTrackMainPage productTrackMainPage;
 
     @BeforeSuite
     public void setup() throws InterruptedException {
@@ -34,6 +36,21 @@ public class Tests {
         loginPage=new LoginPage(driver);
         loginPage.readLoginDetails();
         loginPage.addLoginDetails();
+    }
+    @Test(priority = 3)
+    public void clickOnSubmitBtn() throws InterruptedException {
+        loginPage=new LoginPage(driver);
+        loginPage.clickOnSubmitBtn();
+    }
+    @Test(priority = 4)
+    public void verifyNumberOfUploadTypes(){
+        productTrackMainPage=new ProductTrackMainPage(driver);
+        productTrackMainPage.verifyNumberOfUploadTypes();
+    }
+    @Test(priority = 5)
+    public void verifyDownloadSampleLink(){
+        productTrackMainPage=new ProductTrackMainPage(driver);
+        productTrackMainPage.verifyDownloadSampleLink();
     }
 
 }
