@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/suhasm/Desktop/core/Product week/Automation Testing/HU-Allocation-Tool--Automation-master/src/test/java/Tests/Homepage_Test.java"><classes><class name="Tests.Homepage_Test"><methods><include name="Check_Title"/><include name="Carousel"/><include name="GetStarted_Btn"/></methods></class></classes></test></suite>
