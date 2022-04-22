@@ -20,7 +20,7 @@ public class Tests {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get(HomeUrl);
-        Thread.sleep(2000);
+
 
     }
     @Test(priority = 1)
@@ -30,9 +30,10 @@ public class Tests {
 
     }
     @Test(priority = 2)
-    public void loadLoginDetails() throws IOException {
+    public void Login() throws IOException {
         loginPage=new LoginPage(driver);
         loginPage.readLoginDetails();
+        loginPage.addLoginDetails();
     }
 
 }
