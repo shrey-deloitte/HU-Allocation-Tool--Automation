@@ -1,16 +1,21 @@
 package Pages.LoginAsDirector;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
 import java.time.Duration;
 import java.util.List;
+
 
 import static java.lang.Thread.sleep;
 
@@ -73,14 +78,14 @@ public class ParallelTrack {
         }
     }
 
-    @Test(priority = 4)
+  //  @Test(priority = 4)
     public void showUploadedFile() throws InterruptedException {
         List<WebElement> elementList = driver.findElements(By.xpath("//button[contains(@class,'showfile btn btn-primary')]"));
-        for(int i=0;i<=elementList.size();i++){
+        for(int i=0;i<elementList.size();i++){
+            sleep(2000);
             WebElement element = elementList.get(i);
             while (!element.isDisplayed()){
                 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
-                sleep(2000);
             }
             element.click();
             sleep(3000);
@@ -88,12 +93,43 @@ public class ParallelTrack {
         }
     }
 
-    @Test(priority = 5)
+    //@Test(priority = 5)
     public void dropdownFunctionality(){
         Select dropdown = new Select(driver.findElement(By.xpath("//span[contains(text(),'Rows per page:')]")));
         dropdown.selectByVisibleText("15");
 
     }
+    @Test(priority = 6)
+    public void performAnalysisButton() throws InterruptedException {
+        WebElement ele = driver.findElement(By.xpath("//button[@class='btnstart performbtn btn btn-primary btn-lg']"));
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
+        jse.executeScript("arguments[0].click()", ele);
 
+        sleep(2000);
+
+        driver.findElement(By.xpath("//input[@value='1']")).click();
+        driver.findElement(By.xpath("//input[@value='2']")).click();
+        driver.findElement(By.xpath("//a[@href='/analysis']")).click();
+    }
+
+    @Test(priority = 7)
+    public void search() throws InterruptedException {
+        sleep(2000);
+     //   driver.findElement(By.xpath("//input[@placeholder='Search..']")).sendKeys("Data");
+     //   sleep(1000);
+        driver.findElement(By.className("accordion-item")).click();
+        sleep(1000);
+        driver.findElement(By.xpath("//a[contains(text(),'dgeroldik')]")).click();
+        sleep(3000);
+        driver.navigate().back();
+    }
+
+    @Test(priority = 8)
+    public void editTeamTrack(){
+        WebElement ele = driver.findElement(By.xpath("//button[@class='btnstart performbtn1 btn btn-primary btn-lg']"));
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
+        jse.executeScript("arguments[0].click()", ele);
+
+    }
 
 }
