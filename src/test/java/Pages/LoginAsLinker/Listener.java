@@ -1,6 +1,4 @@
 package Pages.LoginAsLinker;
-
-import Pages.HomePage.test;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import org.apache.logging.log4j.Logger;
@@ -11,8 +9,8 @@ import org.testng.ITestResult;
 import java.io.IOException;
 
 public class Listener implements ITestListener {
-   Logger log = extentController.log;
-    ExtentTest test = extentController.test;
+   Logger log = extentReport.log;
+    ExtentTest test = extentReport.test;
     @Override
     public void onTestStart(ITestResult result) {
         log.info(result.getMethod().getMethodName() + " start");
@@ -56,8 +54,8 @@ public class Listener implements ITestListener {
 
     @Override
     public void onFinish(ITestContext context) {
-        extentController.extent.flush();
-        extentController.log.traceExit();
+        extentReport.extent.flush();
+        extentReport.log.traceExit();
         ITestListener.super.onFinish(context);
     }
 }

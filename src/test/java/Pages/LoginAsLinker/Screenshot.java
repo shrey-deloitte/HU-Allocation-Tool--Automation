@@ -6,8 +6,6 @@ import org.openqa.selenium.TakesScreenshot;
 import java.io.File;
 import java.io.IOException;
 
-import static Pages.LoginAsLinker.BrowserStarted.driver;
-
 public class Screenshot extends BrowserStarted {
     public static void getScreenShotPass() throws IOException
     {

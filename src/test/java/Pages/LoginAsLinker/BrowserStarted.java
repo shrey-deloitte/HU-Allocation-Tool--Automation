@@ -1,6 +1,6 @@
 package Pages.LoginAsLinker;
 import Pages.LoginAsLinker.Listener;
-import Pages.LoginAsLinker.extentController;
+import Pages.LoginAsLinker.extentReport;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -14,9 +14,9 @@ import org.apache.logging.log4j.Logger;
 import java.io.IOException;
 import java.time.Duration;
 @Listeners(Listener.class)
-public class BrowserStarted extends extentController {
-    Logger log = extentController.log;
-    ExtentReports extent = extentController.extent;
+public class BrowserStarted extends extentReport {
+    Logger log = extentReport.log;
+    ExtentReports extent = extentReport.extent;
     static int number =1;
     LinkersLogin linkersLogin;
     static WebDriver driver;
