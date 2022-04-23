@@ -89,6 +89,7 @@ public class Tests {
 //        productTrackMainPage=new ProductTrackMainPage(driver);
 //        productTrackMainPage.verifyDownloadSampleLink();
 //    }
+
     @Test(priority = 5)
     public void download() throws InterruptedException {
 
@@ -97,13 +98,21 @@ public class Tests {
 
     }
 
+    @Test(priority = 6)
+    public void uploadFiles() throws InterruptedException {
+        productTrackMainPage=new ProductTrackMainPage(driver);
+
+        productTrackMainPage.uploadFiles();
+    }
+    @Test(priority = 7)
+    public void verifyShowUploadBtns(){
+        productTrackMainPage=new ProductTrackMainPage(driver);
+        productTrackMainPage.verifyShowUploadBtn();
+    }
     @AfterSuite
     public void tearDown(){
-        driver.quit();
 
-        for(File file:folder.listFiles()){
-            file.delete();
-        }
-        folder.delete();
+
+
     }
 }

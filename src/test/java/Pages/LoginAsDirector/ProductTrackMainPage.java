@@ -1,6 +1,6 @@
 package Pages.LoginAsDirector;
 
-import org.apache.xmlbeans.GDuration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -17,7 +17,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 import java.util.concurrent.TimeUnit;
-
+import static org.hamcrest.CoreMatchers.*;
+import static org.hamcrest.MatcherAssert.assertThat;
 public class ProductTrackMainPage {
 
     static WebDriver driver;
@@ -27,6 +28,8 @@ public class ProductTrackMainPage {
     String productTrackString="//div[@id='rc-tabs-0-tab-2']";
     By upoloadTypes = By.xpath("//div[contains(@class, 'uploader')]");
     By downloadSampleLink= By.xpath("//div[@class='head']/child::a");
+    By chooseFile=By.xpath("//div[@class='uploader']/child::div[2]/child::input");
+    By showUploadBtn= By.xpath("//div[@class='uploader']/child::div[2]/child::button[1]");
 
     //constructor
     public ProductTrackMainPage(WebDriver driver) {
@@ -65,6 +68,29 @@ public class ProductTrackMainPage {
                 Assert.assertTrue(true);
             }
         }
+        Thread.sleep(2000);
     }
+
+    public void uploadFiles() throws InterruptedException {
+        List<WebElement> uploadFields = driver.findElements(chooseFile);
+
+        for(WebElement ele:uploadFields){
+            boolean status =ele.isDisplayed() && ele.isEnabled();
+            Assert.assertEquals(status,true);
+            ele.sendKeys("C:\\Users\\shubhamkumar32\\Downloads\\linkerdata (1).csv");
+
+            Thread.sleep(500);
+        }
+    }
+
+    public void verifyShowUploadBtn(){
+        List<WebElement> showUploadBtns = driver.findElements(showUploadBtn);
+
+        for(WebElement ele:showUploadBtns){
+            boolean status= ele.isDisplayed() && ele.isEnabled();
+            ele.click();
+        }
+    }
+
 
 }
