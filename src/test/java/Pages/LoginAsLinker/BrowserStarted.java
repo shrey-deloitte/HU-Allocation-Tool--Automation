@@ -54,7 +54,6 @@ public class BrowserStarted extends extentController {
     public void preferenceButton()  {
         driver.findElement(By.xpath("//*[contains(text(),'Preference Form')]")).click();
         driver.findElement(By.xpath("//*[@id=\"vertical-tabpanel-0\"]/div/p/button")).click();
-        //driver.findElement(By.name("Fill Your Preference")).click();
         driver.manage().timeouts().implicitlyWait(Duration.ofMinutes(1));
         driver.findElement(By.xpath("//*[contains(text(),'Data Engineering')]")).click();
     }
