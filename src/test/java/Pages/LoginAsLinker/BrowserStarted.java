@@ -5,12 +5,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
 import java.time.Duration;
-
-public class BrowserStarted {
+@Listeners(Listener.class)
+public class BrowserStarted extends extentController {
+    static int number =1;
     LinkersLogin linkersLogin;
     static WebDriver driver;
     String appURL = "https://automatedhuallocation-ui-urtjok3rza-wl.a.run.app/";
@@ -41,26 +43,30 @@ public class BrowserStarted {
         linkersLogin.Login();
     }
 
-    @Test(priority = 5)
-    public void getNotify() throws InterruptedException {
+    @Test(priority = 4)
+    public void getNotify()  {
         driver.findElement(By.xpath(Notification)).click();
         driver.findElement(By.xpath(Notification)).click();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+       driver.manage().timeouts().implicitlyWait(Duration.ofMinutes(1));
     }
 
-    @Test(priority = 6)
-    public void preferenceButton() throws InterruptedException {
+    @Test(priority = 5)
+    public void preferenceButton()  {
         driver.findElement(By.xpath("//*[contains(text(),'Preference Form')]")).click();
         driver.findElement(By.xpath("//*[@id=\"vertical-tabpanel-0\"]/div/p/button")).click();
         //driver.findElement(By.name("Fill Your Preference")).click();
-        Thread.sleep(5000);
+        driver.manage().timeouts().implicitlyWait(Duration.ofMinutes(1));
         driver.findElement(By.xpath("//*[contains(text(),'Data Engineering')]")).click();
     }
 
-    @Test(priority = 7)
+    @Test(priority = 6)
     public void Submit() {
         driver.findElement(By.xpath("//*[@id=\"vertical-tabpanel-0\"]/div/p/div[2]/button")).click();
-        System.out.println("Submit is clicked but not working");
+        boolean status =  driver.findElement(By.xpath("//*[@id=\"vertical-tabpanel-0\"]/div/p/div[2]/button")).isDisplayed();
+        if(status){
+            System.out.println("logging failed");
+        }
+       // System.out.println("Submit is clicked but not working");
 
     }
 

@@ -9,7 +9,7 @@ import java.io.IOException;
 public class ReadingExcel {
     public static String Username;
     public static String Password;
-@Test
+
     public  void readCells() throws IOException {
         String excelFilePath = "src\\test\\resources\\LinkersLogin.xlsx";
         FileInputStream input = new FileInputStream(excelFilePath);
