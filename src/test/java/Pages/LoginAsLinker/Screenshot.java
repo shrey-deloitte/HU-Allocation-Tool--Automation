@@ -6,7 +6,7 @@ import org.openqa.selenium.TakesScreenshot;
 import java.io.File;
 import java.io.IOException;
 
-public class Screenshot extends BrowserStarted {
+public class Screenshot extends StartLogin{
     public static void getScreenShotPass() throws IOException
     {
         String filename="PassScreenshot"+""+number+".jpg";
