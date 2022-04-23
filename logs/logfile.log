@@ -10,3 +10,15 @@
 [INFO ] 2022-04-23 18:30:56.144 [main] extentReport - preferenceButton success
 [INFO ] 2022-04-23 18:30:56.277 [main] extentReport - Submit start
 [INFO ] 2022-04-23 18:30:56.362 [main] extentReport - Submit success
+[INFO ] 2022-04-23 18:34:41.490 [main] extentReport - setup start
+[INFO ] 2022-04-23 18:34:52.860 [main] extentReport - setup success
+[INFO ] 2022-04-23 18:34:53.311 [main] extentReport - linkerLogin start
+[INFO ] 2022-04-23 18:34:53.402 [main] extentReport - linkerLogin success
+[INFO ] 2022-04-23 18:34:53.737 [main] extentReport - Login start
+[INFO ] 2022-04-23 18:34:54.003 [main] extentReport - Login success
+[INFO ] 2022-04-23 18:34:54.266 [main] extentReport - getNotify start
+[INFO ] 2022-04-23 18:34:56.053 [main] extentReport - getNotify success
+[INFO ] 2022-04-23 18:34:56.301 [main] extentReport - preferenceButton start
+[INFO ] 2022-04-23 18:34:57.322 [main] extentReport - preferenceButton success
+[INFO ] 2022-04-23 18:34:57.440 [main] extentReport - Submit start
+[INFO ] 2022-04-23 18:34:57.495 [main] extentReport - Submit success
