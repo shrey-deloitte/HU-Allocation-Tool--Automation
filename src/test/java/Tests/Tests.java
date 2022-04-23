@@ -8,7 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.remote.DesiredCapabilities;
+
 import org.testng.Assert;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
@@ -99,20 +99,31 @@ public class Tests {
     }
 
     @Test(priority = 6)
-    public void uploadFiles() throws InterruptedException {
+    public void verifyAddNewProjectBtn() throws InterruptedException {
         productTrackMainPage=new ProductTrackMainPage(driver);
+        productTrackMainPage.verifyAddNewProjectBtn();
+    }
 
-        productTrackMainPage.uploadFiles();
-    }
     @Test(priority = 7)
-    public void verifyShowUploadBtns(){
+    public void verifyPerformAnalysisBtn() throws InterruptedException {
         productTrackMainPage=new ProductTrackMainPage(driver);
-        productTrackMainPage.verifyShowUploadBtn();
+        productTrackMainPage.verifyPerformAnalysisBtn();
     }
+//    @Test(priority = 6)
+//    public void uploadFiles() throws InterruptedException {
+//        productTrackMainPage=new ProductTrackMainPage(driver);
+//
+//        productTrackMainPage.uploadFiles();
+//    }
+//    @Test(priority = 7)
+//    public void verifyShowUploadBtns() throws InterruptedException {
+//        productTrackMainPage=new ProductTrackMainPage(driver);
+//        productTrackMainPage.verifyShowUploadBtn();
+//    }
     @AfterSuite
     public void tearDown(){
 
-
+    driver.quit();
 
     }
 }

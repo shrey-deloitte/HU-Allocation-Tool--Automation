@@ -16,7 +16,10 @@ import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
+import java.util.concurrent.ThreadLocalRandom;
 import java.util.concurrent.TimeUnit;
+
+import static java.lang.Thread.sleep;
 import static org.hamcrest.CoreMatchers.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 public class ProductTrackMainPage {
@@ -28,8 +31,16 @@ public class ProductTrackMainPage {
     String productTrackString="//div[@id='rc-tabs-0-tab-2']";
     By upoloadTypes = By.xpath("//div[contains(@class, 'uploader')]");
     By downloadSampleLink= By.xpath("//div[@class='head']/child::a");
-    By chooseFile=By.xpath("//div[@class='uploader']/child::div[2]/child::input");
+   // By chooseFile=By.xpath("//div[@class='uploader']/child::div[2]/child::input");
+   By chooseFile=By.xpath("//input[@type='file']");
     By showUploadBtn= By.xpath("//div[@class='uploader']/child::div[2]/child::button[1]");
+    By showUploadedFileData= By.xpath("//*[@class='sc-dlVxhl fSQziN']");
+    By addNewProjectBtn= By.xpath("//span[text()='Add New Project']");
+    By addNewProjectDialog= By.xpath("//div[@class='ant-modal-content']");
+    By addNewProjectFields= By.xpath("//*[@class='ant-input']");
+    By performAnalysisBtn= By.xpath("//*[@id=\"rc-tabs-0-panel-2\"]/div/div[2]/div[2]/button");
+    By PerformCheckboxes = By.xpath("//input[@type='checkbox']");
+    By performSubmitBtn= By.xpath("//a[@href='/analysis']");
 
     //constructor
     public ProductTrackMainPage(WebDriver driver) {
@@ -51,7 +62,7 @@ public class ProductTrackMainPage {
         }
         for(String target:targets){
             driver.navigate().to(target);
-            Thread.sleep(500);
+            sleep(500);
         }
         ArrayList<String> filenames= new ArrayList<>();
         filenames.add("linkerdata (1).csv");
@@ -68,7 +79,7 @@ public class ProductTrackMainPage {
                 Assert.assertTrue(true);
             }
         }
-        Thread.sleep(2000);
+        sleep(2000);
     }
 
     public void uploadFiles() throws InterruptedException {
@@ -79,18 +90,87 @@ public class ProductTrackMainPage {
             Assert.assertEquals(status,true);
             ele.sendKeys("C:\\Users\\shubhamkumar32\\Downloads\\linkerdata (1).csv");
 
-            Thread.sleep(500);
+            sleep(500);
         }
     }
 
-    public void verifyShowUploadBtn(){
-        List<WebElement> showUploadBtns = driver.findElements(showUploadBtn);
+    public void clickOnShowUploadFileBtn() throws InterruptedException {
+        List<WebElement> elementList = driver.findElements(By.xpath("//button[contains(@class,'showfile btn btn-primary')]"));
+        for(int i=0;i<elementList.size();i++){
+            //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
+            sleep(1000);
+            WebElement element = elementList.get(i);
+            while (!element.isDisplayed()){
+                driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
+            }
+            element.click();
+            //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
+            sleep(2000);
 
-        for(WebElement ele:showUploadBtns){
-            boolean status= ele.isDisplayed() && ele.isEnabled();
-            ele.click();
+        }
+    }
+    public void verifyShowUploadBtn() throws InterruptedException {
+        clickOnShowUploadFileBtn();
+        //veryfying data is showing or not
+
+        List<WebElement> datas=driver.findElements(showUploadedFileData);
+        for(int i=0;i<datas.size();i++){
+            sleep(1000);
+            WebElement ele= datas.get(i);
+
+            Assert.assertNotEquals(ele.getText(),"There are no records to display");
+            sleep(2000);
         }
     }
 
 
+    public void verifyAddNewProjectBtn() throws InterruptedException {
+        WebElement addNewProjectBtnElement = driver.findElement(addNewProjectBtn);
+        Boolean status = addNewProjectBtnElement.isDisplayed() && addNewProjectBtnElement.isEnabled();
+        //addNewProjectBtnElement.click();
+        Thread.sleep(1000);
+
+        //WebElement addNewProjectDialogElement = driver.findElement(addNewProjectDialog);
+       //Assert.assertEquals(addNewProjectDialogElement.isDisplayed(),true);
+
+
+       //verifying fields in the dialog box
+
+
+        //List<WebElement> fields = driver.findElements(addNewProjectFields);
+//        Thread.sleep(1500);
+//        JavascriptExecutor executor = (JavascriptExecutor)driver;
+//
+//        for(int i=0;i< fields.size();i++){
+//            if(i==0){
+//                WebElement ele = fields.get(i);
+//                Thread.sleep(1500);
+//                executor.executeScript("arguments[0].click();", ele);
+//                ele.sendKeys("New Project");
+//            }
+//            if(i==1){
+//                WebElement ele = fields.get(i);
+//                executor.executeScript("arguments[0].click();", ele);
+//                ele.sendKeys("Fantastic Project");
+//            }
+//        }
+
+    }
+
+    public void verifyPerformAnalysisBtn() throws InterruptedException {
+        WebElement performBtn = driver.findElement(performAnalysisBtn);
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
+        jse.executeScript("arguments[0].click()", performBtn);
+        Thread.sleep(2000);
+        List<WebElement> checkboxes =driver.findElements(PerformCheckboxes);
+
+        for(WebElement ele:checkboxes){
+            jse.executeScript("arguments[0].click()", ele);
+            Assert.assertEquals(ele.isSelected(),true);
+        }
+
+        Thread.sleep(1500);
+        driver.findElement(performSubmitBtn).click();
+
+    }
 }

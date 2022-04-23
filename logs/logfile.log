@@ -1,0 +1,14 @@
+[INFO ] 2022-04-23 17:21:55.598 [main] ExtentReportsSetUp - loginAvatarClick start
+[INFO ] 2022-04-23 17:21:57.836 [main] ExtentReportsSetUp - loginAvatarClick success
+[INFO ] 2022-04-23 17:21:57.838 [main] ExtentReportsSetUp - Login start
+[INFO ] 2022-04-23 17:21:58.521 [main] ExtentReportsSetUp - Login success
+[INFO ] 2022-04-23 17:21:58.522 [main] ExtentReportsSetUp - clickOnSubmitBtn start
+[INFO ] 2022-04-23 17:22:00.278 [main] ExtentReportsSetUp - clickOnSubmitBtn success
+[INFO ] 2022-04-23 17:22:00.278 [main] ExtentReportsSetUp - verifyNumberOfUploadTypes start
+[INFO ] 2022-04-23 17:22:00.657 [main] ExtentReportsSetUp - verifyNumberOfUploadTypes success
+[INFO ] 2022-04-23 17:22:00.658 [main] ExtentReportsSetUp - download start
+[INFO ] 2022-04-23 17:22:07.798 [main] ExtentReportsSetUp - download success
+[INFO ] 2022-04-23 17:22:07.799 [main] ExtentReportsSetUp - verifyAddNewProjectBtn start
+[INFO ] 2022-04-23 17:22:08.833 [main] ExtentReportsSetUp - verifyAddNewProjectBtn success
+[INFO ] 2022-04-23 17:22:08.833 [main] ExtentReportsSetUp - verifyPerformAnalysisBtn start
+[INFO ] 2022-04-23 17:22:12.539 [main] ExtentReportsSetUp - verifyPerformAnalysisBtn success
