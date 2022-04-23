@@ -1,7 +1,7 @@
 package Pages.LoginAsLinker;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -12,7 +12,7 @@ public class extentReport {
     static {
         log = LogManager.getLogger(extentReport.class.getName());
         extent = new ExtentReports();
-        extent.attachReporter(new ExtentSparkReporter("extent.html"));
+        extent.attachReporter(new ExtentHtmlReporter("extent.html"));
         test = extent.createTest("Main Assignment", "Test Description");
     }
 }

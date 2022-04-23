@@ -5,7 +5,7 @@
     </listeners>
     <test name="Sel_Main_Assignment">
         <classes>
-            <class name="Pages.LoginAsLinker.StartLogin"></class>
+            <class name="Pages.LoginAsLinker.linkersTestcases"></class>
         </classes>
     </test>
 </suite>

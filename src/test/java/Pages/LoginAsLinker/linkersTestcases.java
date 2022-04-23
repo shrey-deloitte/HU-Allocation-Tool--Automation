@@ -12,7 +12,7 @@ import org.apache.logging.log4j.Logger;
 
 import java.time.Duration;
 @Listeners(Listener.class)
-public class StartLogin extends extentReport {
+public class linkersTestcases extends extentReport {
     Logger log = extentReport.log;
     ExtentReports extent = extentReport.extent;
     static int number =1;
