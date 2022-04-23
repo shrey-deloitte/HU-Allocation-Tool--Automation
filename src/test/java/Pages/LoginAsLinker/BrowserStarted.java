@@ -1,4 +1,6 @@
 package Pages.LoginAsLinker;
+import Pages.LoginAsLinker.Listener;
+import Pages.LoginAsLinker.extentController;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -7,11 +9,14 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-
+import com.aventstack.extentreports.ExtentReports;
+import org.apache.logging.log4j.Logger;
 import java.io.IOException;
 import java.time.Duration;
 @Listeners(Listener.class)
 public class BrowserStarted extends extentController {
+    Logger log = extentController.log;
+    ExtentReports extent = extentController.extent;
     static int number =1;
     LinkersLogin linkersLogin;
     static WebDriver driver;
@@ -20,7 +25,7 @@ public class BrowserStarted extends extentController {
     String Notification = "//*[@id=\"root\"]/div/div[1]/div[3]/div[1]";
 
     @Test(priority = 1)
-    public void setup() throws IOException {
+    public void setup() throws Exception {
         System.setProperty("webdriver.chrome.driver", "Driver/chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));

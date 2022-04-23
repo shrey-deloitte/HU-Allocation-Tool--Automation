@@ -34,3 +34,15 @@
 [INFO ] 2022-04-23 13:08:29.810 [main] extentController - Submit success
 [INFO ] 2022-04-23 13:08:30.003 [main] extentController - setup start
 [INFO ] 2022-04-23 13:08:39.572 [main] extentController - setup success
+[INFO ] 2022-04-23 16:21:19.411 [main] extentController - setup start
+[INFO ] 2022-04-23 16:22:07.590 [main] extentController - setup success
+[INFO ] 2022-04-23 16:22:08.311 [main] extentController - linkerLogin start
+[INFO ] 2022-04-23 16:22:08.407 [main] extentController - linkerLogin success
+[INFO ] 2022-04-23 16:22:08.933 [main] extentController - Login start
+[INFO ] 2022-04-23 16:22:09.335 [main] extentController - Login success
+[INFO ] 2022-04-23 16:22:09.846 [main] extentController - getNotify start
+[INFO ] 2022-04-23 16:22:11.737 [main] extentController - getNotify success
+[INFO ] 2022-04-23 16:22:12.041 [main] extentController - preferenceButton start
+[INFO ] 2022-04-23 16:22:14.468 [main] extentController - preferenceButton success
+[INFO ] 2022-04-23 16:22:14.665 [main] extentController - Submit start
+[INFO ] 2022-04-23 16:22:14.790 [main] extentController - Submit success

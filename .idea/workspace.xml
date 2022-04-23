@@ -5,6 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5bc8a104-282c-4b47-ab9f-65fd7879eac4" name="Changes" comment="Login_As_Linker">
+      <change afterPath="$MAVEN_REPOSITORY$/com/aventstack/extentreports/5.0.6/_remote.repositories" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.jar.sha1" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.pom" afterDir="false" />
+      <change afterPath="$MAVEN_REPOSITORY$/com/aventstack/extentreports/5.0.6/extentreports-5.0.6.pom.sha1" afterDir="false" />
       <change afterPath="$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-core/2.17.2/_remote.repositories" afterDir="false" />
       <change afterPath="$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-core/2.17.2/log4j-core-2.17.2.pom" afterDir="false" />
       <change afterPath="$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-core/2.17.2/log4j-core-2.17.2.pom.sha1" afterDir="false" />
@@ -13,19 +18,28 @@
       <change afterPath="$MAVEN_REPOSITORY$/ru/yandex/qatools/ashot/ashot/1.5.4/ashot-1.5.4.jar.sha1" afterDir="false" />
       <change afterPath="$MAVEN_REPOSITORY$/ru/yandex/qatools/ashot/ashot/1.5.4/ashot-1.5.4.pom" afterDir="false" />
       <change afterPath="$MAVEN_REPOSITORY$/ru/yandex/qatools/ashot/ashot/1.5.4/ashot-1.5.4.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AppData/Local/Microsoft/Outlook/~shampriya@deloitte.com.nst.tmp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/2e77ce02dad350ec1999a6162a7536ca595e087d.tbres" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/3b446d0bf1f0b90468cf4585cc3f161efecda42e.tbres" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/3ff60a3f891bc549b112bcc2e4e96bc26590d046.tbres" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/56ee0d95b2d6786b081450f3166bedce5914bd01.tbres" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/52ec241195fd1122a45020d6f3e68ce6b7049555.tbres" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/5c09cb31a612bef13366133ffd4aecdb068e4c4e.tbres" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/ab475cb863e1ea9827d9552facdbdc893281c61f.tbres" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/c484196a4b75dc010339656f4933d5dc7a22bb3c.tbres" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AppData/Local/Microsoft/Windows/INetCache/IE/7SGUDEDO/3ed14d6d-6112-4e5f-a034-6f1c4206308c[1].png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AppData/Local/Microsoft/Windows/INetCache/IE/7SGUDEDO/9375285e-dd22-6dd0-7192-1ed8ae9ba34d[1].png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../AppData/Local/Microsoft/Windows/INetCache/IE/B0MGXHQ4/AAehYNC[1].svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AppData/Local/Microsoft/Windows/INetCache/IE/Y8Q890SR/MostlySunnyDay[1].svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AppData/Local/Microsoft/Windows/INetCache/IE/Y8Q890SR/fd59a600-b9c1-d41a-6ca8-c333a440cbc6[1].png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AppData/Local/Microsoft/Windows/INetCache/IE/Y8Q890SR/shim[1].gif" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../AppData/Local/Packages/Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy/LocalState/TargetedContentCache/v3/338387/7b7993c81aac4e6bb6b343b259e83159_1" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../AppData/Local/Packages/Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy/LocalState/TargetedContentCache/v3/338387/88d84e41cffa4336a4334f6c37eb2ad7_1" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../AppData/Local/Packages/Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy/LocalState/TargetedContentCache/v3/338387/8dc3d17690e3486f9572e2f16c4cd5f3_1" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../AppData/Local/Packages/Microsoft.Windows.Search_cw5n1h2txyewy/AC/TokenBroker/Cache/323fc8f6b026601d768c7a2d27f9c50898ee6cab.tbres" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AppData/Roaming/Microsoft/Teams/settings.json.__new__" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../AppData/Roaming/Microsoft/Teams/skylib/slimcore-ecs-cache.data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AppData/Roaming/Microsoft/Templates/~$rmalEmail.dotm" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Desktop/Status Report.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Downloads/Unconfirmed 778869.crdownload" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Downloads/Unconfirmed 937610.crdownload" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AppData/Local/Google/Chrome/User Data/Default/Code Cache/js/00387b4fb55c9d4e_0" beforeDir="false" afterPath="$PROJECT_DIR$/../AppData/Local/Google/Chrome/User Data/Default/Code Cache/js/00387b4fb55c9d4e_0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AppData/Local/Google/Chrome/User Data/Default/Code Cache/js/09f0cdafb36a13da_0" beforeDir="false" afterPath="$PROJECT_DIR$/../AppData/Local/Google/Chrome/User Data/Default/Code Cache/js/09f0cdafb36a13da_0" afterDir="false" />
@@ -38,7 +52,7 @@
       <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/MSIP/mip/EXCEL.EXE/mip/telemetry-wal" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/MSIP/mip/OUTLOOK.EXE/mip/telemetry-shm" beforeDir="false" afterPath="$PROJECT_DIR$/../AppData/Local/Microsoft/MSIP/mip/OUTLOOK.EXE/mip/telemetry-shm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/MSIP/mip/OUTLOOK.EXE/mip/telemetry-wal" beforeDir="false" afterPath="$PROJECT_DIR$/../AppData/Local/Microsoft/MSIP/mip/OUTLOOK.EXE/mip/telemetry-wal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/Office/16.0/Lync/Tracing/OCAddin/OCAddin-16.0.13801.20000-Office-x64ship-U.0.etl" beforeDir="false" afterPath="$PROJECT_DIR$/../AppData/Local/Microsoft/Office/16.0/Lync/Tracing/OCAddin/OCAddin-16.0.13801.20000-Office-x64ship-U.0.etl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/Office/16.0/Lync/Tracing/OCAddin/OCAddin-16.0.13801.20000-Office-x64ship-U.0.etl" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/Office/OTele/excel.exe.db-shm" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/Office/OTele/excel.exe.db-wal" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/02de57adf362da403845ffeadb3d3a33533f19ae.tbres" beforeDir="false" />
@@ -50,19 +64,19 @@
       <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/2beaaa64518af8080e72984654b9bd721bd3ddfd.tbres" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/316cdd617601f1f18e3af74dab1f6ad0ca566d6c.tbres" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/40c94bb857ef82f0f4d72fa0443e635e86e9d98f.tbres" beforeDir="false" afterPath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/40c94bb857ef82f0f4d72fa0443e635e86e9d98f.tbres" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/5c73ab1ea7af7bb581e4034240057994767707e9.tbres" beforeDir="false" afterPath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/5c73ab1ea7af7bb581e4034240057994767707e9.tbres" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/7501aeff52a21d5bf5e9e108b91df8fc1179ffd5.tbres" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/5c73ab1ea7af7bb581e4034240057994767707e9.tbres" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/7501aeff52a21d5bf5e9e108b91df8fc1179ffd5.tbres" beforeDir="false" afterPath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/7501aeff52a21d5bf5e9e108b91df8fc1179ffd5.tbres" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/75a1a3cdd726e1f64eea3b922436cf70f09b2d84.tbres" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/8e447a198134d8ec64f78dc62bb9d540dbf79f71.tbres" beforeDir="false" afterPath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/8e447a198134d8ec64f78dc62bb9d540dbf79f71.tbres" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/8e447a198134d8ec64f78dc62bb9d540dbf79f71.tbres" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/a30fe72d8cc2053029b3e0b01e2bf55ea038e5ec.tbres" beforeDir="false" afterPath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/a30fe72d8cc2053029b3e0b01e2bf55ea038e5ec.tbres" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/ab1f144e8307afd1362c914fd3d7186cf65eac6f.tbres" beforeDir="false" afterPath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/ab1f144e8307afd1362c914fd3d7186cf65eac6f.tbres" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/b3ad8ddd50d5e4c7569f7fb5b6ddfb582f680827.tbres" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/b474c62c5ccb47f5a99a57ec986b25297593f49c.tbres" beforeDir="false" afterPath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/b474c62c5ccb47f5a99a57ec986b25297593f49c.tbres" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/b59399fa8126521d96fbef394a719a39764088a7.tbres" beforeDir="false" afterPath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/b59399fa8126521d96fbef394a719a39764088a7.tbres" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/c4aae5918305c94f42174444d8f24c819df26a98.tbres" beforeDir="false" afterPath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/c4aae5918305c94f42174444d8f24c819df26a98.tbres" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/d17918b4d474fb0a3f3d741396e989c838766ce5.tbres" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/d5b0bed9411026ae11118c127288f01184d71612.tbres" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/e7b2e72a8f26adace0207fe42e1428f57c4f112c.tbres" beforeDir="false" afterPath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/e7b2e72a8f26adace0207fe42e1428f57c4f112c.tbres" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/d17918b4d474fb0a3f3d741396e989c838766ce5.tbres" beforeDir="false" afterPath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/d17918b4d474fb0a3f3d741396e989c838766ce5.tbres" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/d5b0bed9411026ae11118c127288f01184d71612.tbres" beforeDir="false" afterPath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/d5b0bed9411026ae11118c127288f01184d71612.tbres" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/e7b2e72a8f26adace0207fe42e1428f57c4f112c.tbres" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/eb237d171d4d0ea37f4a9a5bab1648a6025d632a.tbres" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/f3d29baa3238473bc233aaaaaba975276598b12e.tbres" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../AppData/Local/Microsoft/TokenBroker/Cache/f68e2eca0c3a9c455343e65ffeff5c361c2a52cf.tbres" beforeDir="false" />
@@ -130,7 +144,7 @@
       <change beforePath="$PROJECT_DIR$/../IdeaProjects/untitled/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IdeaProjects/untitled/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../IdeaProjects/untitled/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../IdeaProjects/untitled/untitled.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Outlook/~shampriya@deloitte.com.ost.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../Outlook/~shampriya@deloitte.com.ost.tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Outlook/~shampriya@deloitte.com.ost.tmp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,8 +157,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="module-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -199,7 +213,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Pages">
+  <component name="RunManager" selected="TestNG.BrowserStarted">
     <configuration name="BrowserStarted" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HU-Allocation-Tool--Automation-master" />
       <extension name="coverage">
@@ -279,11 +293,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Pages" />
         <item itemvalue="TestNG.BrowserStarted" />
+        <item itemvalue="TestNG.C:/Users/shampriya/HU-Allocation-Tool--Automation-master/testng.xml" />
+        <item itemvalue="TestNG.Pages" />
         <item itemvalue="TestNG.Pages.LoginAsLinker" />
         <item itemvalue="TestNG.BrowserStarted.setup" />
-        <item itemvalue="TestNG.C:/Users/shampriya/HU-Allocation-Tool--Automation-master/testng.xml" />
       </list>
     </recent_temporary>
   </component>
