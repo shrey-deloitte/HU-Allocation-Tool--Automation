@@ -9,7 +9,7 @@ import org.openqa.selenium.interactions.Actions;
 
 public class HomePage {
 
-    //Initializing web driver
+    //Declaration of Xpaths used
     static By GetStarted = By.xpath("//button[@class='btnstart btn btn-primary btn-lg']");
     static By cancel = By.xpath("//button[@class='ant-btn ant-btn-default']");
     static By left = By.xpath("//span[@class=\"carousel-control-prev-icon\"]");
