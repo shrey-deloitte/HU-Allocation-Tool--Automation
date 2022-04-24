@@ -38,24 +38,37 @@ public class Test_Homepage {
     }
 
     //Verifying Carousel
-    @Test(priority = 1)
+    @Test(priority = 2)
     void Carousel() throws InterruptedException {
         HomePage.carousel(driver);
         Thread.sleep(1000);
     }
 
     //Verifying Get Started Button
-    @Test(priority = 2)
+    @Test(priority = 3)
     void GetStarted_Btn() throws InterruptedException {
         HomePage.GetStarted_btn(driver);
         Thread.sleep(2000);
     }
 
+    //Verfying the Login icon Button
+    @Test(priority = 4)
+    void Login_icon_button() throws InterruptedException {
+        HomePage.Login_icon(driver);
+        Thread.sleep(2000);
+    }
     //Verifying the team members
-    @Test(priority = 2)
+    @Test(priority = 5)
     void Check_members() throws InterruptedException{
         HomePage.Check_members(driver);
         Thread.sleep(2000);
+    }
+
+    //Clicking on the website Logo to return Homepage
+    @Test(priority = 6)
+    void Click_logo() throws InterruptedException {
+        HomePage.Website_Logo(driver);
+        Thread.sleep(4000);
     }
 
     //Closing the browser
