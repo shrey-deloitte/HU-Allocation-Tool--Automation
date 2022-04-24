@@ -44,7 +44,7 @@ public class ParallelTrack {
         sleep(3000);
     }
 
-  // @Test(priority = 2)
+   @Test(priority = 2)
     public void downloadSample(){
         driver.findElement(By.xpath("//a[@download='linkerdata.csv']")).click();
         driver.findElement(By.xpath("//a[@download='trackresults.csv']")).click();
@@ -55,7 +55,7 @@ public class ParallelTrack {
 
     }
 
-   // @Test(priority = 3)
+    @Test(priority = 3)
     public  void  chooseFile(){
 
         List<WebElement> elementList = driver.findElements(By.xpath("//input[@type='file']"));
@@ -81,7 +81,7 @@ public class ParallelTrack {
         }
     }
 
-   // @Test(priority = 4)
+    @Test(priority = 4)
     public void showUploadedFile() throws InterruptedException {
         List<WebElement> elementList = driver.findElements(By.xpath("//button[contains(@class,'showfile btn btn-primary')]"));
         for(int i=0;i<elementList.size();i++){
@@ -115,7 +115,7 @@ public class ParallelTrack {
         driver.findElement(By.xpath("//a[@href='/analysis']")).click();
     }
 
-   // @Test(priority = 7)
+    @Test(priority = 7)
     public void search() throws InterruptedException {
         sleep(2000);
      //   driver.findElement(By.xpath("//input[@placeholder='Search..']")).sendKeys("Data");
