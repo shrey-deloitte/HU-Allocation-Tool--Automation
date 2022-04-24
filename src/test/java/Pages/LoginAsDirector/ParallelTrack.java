@@ -1,9 +1,6 @@
 package Pages.LoginAsDirector;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -47,12 +44,18 @@ public class ParallelTrack {
         sleep(3000);
     }
 
-    @Test(priority = 2)
+  // @Test(priority = 2)
     public void downloadSample(){
         driver.findElement(By.xpath("//a[@download='linkerdata.csv']")).click();
+        driver.findElement(By.xpath("//a[@download='trackresults.csv']")).click();
+       driver.findElement(By.xpath("//a[@download='paralleltrack.csv']")).click();
+       driver.findElement(By.xpath("//a[@download='sectionlead.csv']")).click();
+       driver.findElement(By.xpath("//a[@download='productpref.csv']")).click();
+
+
     }
 
-    @Test(priority = 3)
+   // @Test(priority = 3)
     public  void  chooseFile(){
 
         List<WebElement> elementList = driver.findElements(By.xpath("//input[@type='file']"));
@@ -78,7 +81,7 @@ public class ParallelTrack {
         }
     }
 
-    @Test(priority = 4)
+   // @Test(priority = 4)
     public void showUploadedFile() throws InterruptedException {
         List<WebElement> elementList = driver.findElements(By.xpath("//button[contains(@class,'showfile btn btn-primary')]"));
         for(int i=0;i<elementList.size();i++){
@@ -93,7 +96,7 @@ public class ParallelTrack {
         }
     }
 
-    @Test(priority = 5)
+    //@Test(priority = 5)
     public void dropdownFunctionality(){
         Select dropdown = new Select(driver.findElement(By.xpath("//span[contains(text(),'Rows per page:')]")));
         dropdown.selectByVisibleText("15");
@@ -112,24 +115,55 @@ public class ParallelTrack {
         driver.findElement(By.xpath("//a[@href='/analysis']")).click();
     }
 
-    @Test(priority = 7)
+   // @Test(priority = 7)
     public void search() throws InterruptedException {
         sleep(2000);
      //   driver.findElement(By.xpath("//input[@placeholder='Search..']")).sendKeys("Data");
      //   sleep(1000);
         driver.findElement(By.className("accordion-item")).click();
         sleep(1000);
-        driver.findElement(By.xpath("//a[contains(text(),'dgeroldik')]")).click();
+        driver.findElement(By.xpath("//strong[contains(text(),'Data Engineering')]")).click();
+        driver.findElement(By.xpath("//a[contains(text(),'lchinnery7')]")).click();
+
         sleep(3000);
         driver.navigate().back();
     }
 
-    @Test(priority = 8)
-    public void editTeamTrack(){
-        WebElement ele = driver.findElement(By.xpath("//button[@class='btnstart performbtn1 btn btn-primary btn-lg']"));
-        JavascriptExecutor jse = (JavascriptExecutor) driver;
-        jse.executeScript("arguments[0].click()", ele);
+   @Test(priority = 8)
+    public void editTeamTrack() {
+       WebElement ele = driver.findElement(By.xpath("//button[@class='btnstart performbtn1 btn btn-primary btn-lg']"));
+       JavascriptExecutor jse = (JavascriptExecutor) driver;
+       jse.executeScript("arguments[0].click()", ele);
+    }
 
+//        driver.findElement(By.xpath("//input[@id='combo-box-demo2']")).click();
+//        Select dropdown = new Select(driver.findElement(By.xpath("//input[@value ='Advance Angular']")));
+//        dropdown.selectByVisibleText("Data Engineering");
+
+
+//        driver.findElement(By.xpath("//input[@id='combo-box-demo2']")).click();
+//        Actions action= new Actions(driver);
+//        WebElement joiningYear=driver.findElement(By.xpath("//input[@value='Data Engineering']"));
+//        do {
+//            action.sendKeys(Keys.ARROW_DOWN).perform();
+//        } while (!joiningYear.isDisplayed());
+//        joiningYear.click();
+
+
+    @Test(priority = 9)
+    public void drag_and_drop() throws InterruptedException {
+        List<WebElement> linkersList = driver.findElements(By.className("myname"));
+        for (int i = 0; i < linkersList.size()-46; i++) {
+            sleep(2000);
+            WebElement drag = linkersList.get(i);
+            WebElement drop=linkersList.get(i+29);
+
+            Actions action=new Actions(driver);
+            sleep(4000);
+            action.dragAndDrop(drag,drop);
+
+
+        }
     }
 
 }
