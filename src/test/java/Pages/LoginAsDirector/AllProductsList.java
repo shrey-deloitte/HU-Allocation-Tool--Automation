@@ -1,6 +1,7 @@
 package Pages.LoginAsDirector;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -10,6 +11,8 @@ import org.testng.Assert;
 
 import java.time.Duration;
 import java.util.List;
+
+import static java.lang.Thread.sleep;
 
 public class AllProductsList {
 
@@ -25,6 +28,17 @@ public class AllProductsList {
    By leftdropDownDiv = By.xpath("//div[@role='presentation']");
    String leftdropDownDivString = "//div[@role='presentation']";
    By rightDropBtn = By.xpath("//*[@id=\"root\"]/div/div[2]/div[2]/div[1]/div/div/div/button[2]");
+   By pieChart= By.xpath("//div[@class='bar-div']/child::canvas");
+   String pieChartString = "//div[@class='bar-div']/child::canvas";
+   By addNotifBtn= By.xpath("//div[@class='right']/button");
+   By addNotifDialogBox=By.xpath("//div[@class='ant-modal-content']");
+   String addNotifDialogBoxString ="//div[@class='ant-modal-content']";
+   By message= By.xpath("//textarea[@id='outlined-multiline-static']");
+   By radioBoxes = By.xpath("//input[@type='radio' ][@class='ant-radio-input']");
+   By receiver= By.xpath("//input[@id='validate_other_receiver']");
+   By linkersList =By.xpath("//div[@class='ant-select-item ant-select-item-option']");
+
+   By sendBtn =By.xpath("//button[@type='submit']");
 
     public AllProductsList(WebDriver driver) {
         this.driver=driver;
@@ -47,7 +61,7 @@ public class AllProductsList {
     public void verifyProductLeadBtn() throws InterruptedException {
         WebElement productLeadBtnElement = driver.findElement(editProductLeadBtn);
         productLeadBtnElement.click();
-        Thread.sleep(3000);
+        sleep(3000);
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='maincontent']")));
         Actions builder = new Actions(driver);
@@ -76,8 +90,56 @@ public class AllProductsList {
         rightBtnElement.click();
 
         driver.navigate().back();
+        new WebDriverWait(driver, Duration.ofSeconds(20)).until(
+                webDriver -> ((JavascriptExecutor) webDriver).executeScript("return document.readyState").equals("complete"));
     }
-    public void verifyPieChart(){
+    public void verifyPieChart() throws InterruptedException {
+
+       WebElement chartElement = driver.findElement(pieChart);
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(pieChartString)));
+        //sleep(40000);
+        //Creating object of an Actions class
+        Actions action = new Actions(driver);
+
+//Performing the mouse hover action on the target element.
+        action.moveToElement(chartElement).perform();
+        String title = chartElement.getAttribute("Title");
+        System.out.println(title);
+
+    }
+    public void verifyAddNotif(){
+        WebElement addNotifBtnElement = driver.findElement(addNotifBtn);
+        addNotifBtnElement.click();
+        WebDriverWait wait= new WebDriverWait(driver,Duration.ofSeconds(5));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(addNotifDialogBoxString)));
+
+        WebElement messageElement= driver.findElement(message);
+        Boolean messagestatus = messageElement.isDisplayed() && messageElement.isEnabled();
+        messageElement.sendKeys("Hello");
+
+        List<WebElement> radios = driver.findElements(radioBoxes);
+
+        for(WebElement ele:radios){
+            ele.click();
+            Assert.assertEquals(ele.isSelected(),true);
+        }
+        WebElement receiverElement = driver.findElement(receiver);
+        Assert.assertEquals(receiverElement.isDisplayed(),true);
+        receiverElement.click();
+
+        WebElement linkersListElement = driver.findElement(linkersList);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='ant-select-item ant-select-item-option']")));
+        Assert.assertEquals(linkersListElement.isDisplayed(),true);
+
+      driver.findElement(By.xpath("//div[@title='dfirpog']")).click();
+
+
+       WebElement sendBtnElement = driver.findElement(sendBtn);
+       //wait.until(ExpectedConditions.elementToBeClickable(sendBtnElement));
+        sendBtnElement.submit();
+
+        driver.findElement(By.xpath("//span[@class='ant-modal-close-x']")).click();
 
     }
 }

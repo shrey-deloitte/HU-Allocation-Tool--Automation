@@ -23,7 +23,7 @@ import java.io.PushbackInputStream;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
-import java.util.UUID;
+
 
 public class Tests {
     WebDriver driver;
@@ -35,20 +35,10 @@ public class Tests {
 
     @BeforeSuite
     public void fileSetup(){
-        folder = new File(UUID.randomUUID().toString());
-        folder.mkdir();
+
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\shubhamkumar32\\Downloads\\chromedriver.exe");
 
-//        ChromeOptions options= new ChromeOptions();
-//        Map<String,Object> prefs= new HashMap<String, Object>();
-//        prefs.put("profile.default_content_settings.popups",0);
-//        prefs.put("download.default_directory",folder.getAbsolutePath());
-//
-//        options.setExperimentalOption("prefs",prefs);
-//        DesiredCapabilities caps = DesiredCapabilities.chrome();
-//        caps.setCapability(ChromeOptions.CAPABILITY,options);
-//        options.addArguments("--start-maximized");
-//        options.merge(caps);
+
 
 
         driver = new ChromeDriver();
@@ -101,13 +91,24 @@ public class Tests {
 
     }
 
-    @Test(priority = 6)
+       @Test(priority = 6)
+    public void uploadFiles() throws InterruptedException {
+        productTrackMainPage=new ProductTrackMainPage(driver);
+
+        productTrackMainPage.uploadFiles();
+    }
+    @Test(priority = 7)
+    public void verifyShowUploadBtns() throws InterruptedException {
+        productTrackMainPage=new ProductTrackMainPage(driver);
+        productTrackMainPage.verifyShowUploadBtn();
+    }
+    @Test(priority = 8)
     public void verifyAddNewProjectBtn() throws InterruptedException {
         productTrackMainPage=new ProductTrackMainPage(driver);
         productTrackMainPage.verifyAddNewProjectBtn();
     }
 
-    @Test(priority = 7)
+    @Test(priority = 9)
     public void verifyPerformAnalysisBtn() throws InterruptedException {
         productTrackMainPage=new ProductTrackMainPage(driver);
         productTrackMainPage.verifyPerformAnalysisBtn();
@@ -117,33 +118,33 @@ public class Tests {
         allProductsList=new AllProductsList(driver);
         allProductsList.verifySearchBox();
     }
-    @Test(priority = 8)
+    @Test(priority = 10)
     public void countOfAllProducts() throws InterruptedException {
 
         allProductsList=new AllProductsList(driver);
         allProductsList.countOfAllProducts();
     }
-    @Test(priority = 9)
+    @Test(priority = 11)
     public void verifyProductLeadBtn() throws InterruptedException {
         allProductsList=new AllProductsList(driver);
         allProductsList.verifyProductLeadBtn();
     }
-    @Test(priority = 10)
+    @Test(priority = 12)
     public void verifyEditProductTeam() throws InterruptedException {
         allProductsList=new AllProductsList(driver);
         allProductsList.verifyEditProductTeam();
     }
-//    @Test(priority = 6)
-//    public void uploadFiles() throws InterruptedException {
-//        productTrackMainPage=new ProductTrackMainPage(driver);
-//
-//        productTrackMainPage.uploadFiles();
-//    }
-//    @Test(priority = 7)
-//    public void verifyShowUploadBtns() throws InterruptedException {
-//        productTrackMainPage=new ProductTrackMainPage(driver);
-//        productTrackMainPage.verifyShowUploadBtn();
-//    }
+    @Test(priority = 12)
+    public void verifyPieChart() throws InterruptedException {
+        allProductsList=new AllProductsList(driver);
+        allProductsList.verifyPieChart();
+    }
+    @Test(priority = 14)
+    public void verifyAddNotif(){
+        allProductsList=new AllProductsList(driver);
+        allProductsList.verifyAddNotif();
+    }
+
     @AfterSuite
     public void tearDown(){
 
