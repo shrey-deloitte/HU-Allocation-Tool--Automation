@@ -1,5 +1,6 @@
 package Tests;
 
+import Pages.LoginAsDirector.AllProductsList;
 import Pages.LoginAsDirector.LoginPage;
 import Pages.LoginAsDirector.ProductTrackMainPage;
 import net.bytebuddy.build.Plugin;
@@ -18,6 +19,7 @@ import static org.hamcrest.CoreMatchers.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 import java.io.File;
 import java.io.IOException;
+import java.io.PushbackInputStream;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
@@ -29,6 +31,7 @@ public class Tests {
     String HomeUrl="https://automatedhuallocation-ui-urtjok3rza-wl.a.run.app/";
     LoginPage loginPage;
     ProductTrackMainPage productTrackMainPage;
+    AllProductsList allProductsList;
 
     @BeforeSuite
     public void fileSetup(){
@@ -109,6 +112,27 @@ public class Tests {
         productTrackMainPage=new ProductTrackMainPage(driver);
         productTrackMainPage.verifyPerformAnalysisBtn();
     }
+
+    public void verifySearchBox(){
+        allProductsList=new AllProductsList(driver);
+        allProductsList.verifySearchBox();
+    }
+    @Test(priority = 8)
+    public void countOfAllProducts() throws InterruptedException {
+
+        allProductsList=new AllProductsList(driver);
+        allProductsList.countOfAllProducts();
+    }
+    @Test(priority = 9)
+    public void verifyProductLeadBtn() throws InterruptedException {
+        allProductsList=new AllProductsList(driver);
+        allProductsList.verifyProductLeadBtn();
+    }
+    @Test(priority = 10)
+    public void verifyEditProductTeam() throws InterruptedException {
+        allProductsList=new AllProductsList(driver);
+        allProductsList.verifyEditProductTeam();
+    }
 //    @Test(priority = 6)
 //    public void uploadFiles() throws InterruptedException {
 //        productTrackMainPage=new ProductTrackMainPage(driver);
@@ -123,7 +147,7 @@ public class Tests {
     @AfterSuite
     public void tearDown(){
 
-    driver.quit();
+    //driver.quit();
 
     }
 }
