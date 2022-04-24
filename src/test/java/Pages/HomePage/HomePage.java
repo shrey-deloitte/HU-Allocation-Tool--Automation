@@ -9,12 +9,12 @@ import org.openqa.selenium.interactions.Actions;
 
 public class HomePage {
 
-    //Declaration of Xpaths used
+    //Declaration of Xpaths used and URL
+    static String url = "https://automatedhuallocation-ui-urtjok3rza-wl.a.run.app/";
     static By GetStarted = By.xpath("//button[@class='btnstart btn btn-primary btn-lg']");
     static By cancel = By.xpath("//button[@class='ant-btn ant-btn-default']");
     static By left = By.xpath("//span[@class=\"carousel-control-prev-icon\"]");
     static By right = By.xpath("//span[@class=\"carousel-control-next-icon\"]");
-    static String url = "https://automatedhuallocation-ui-urtjok3rza-wl.a.run.app/";
     static By member_1 = By.xpath("//*[@id=\"team\"]/div/div[2]/div[1]/div/div/img");
     static By member_2 = By.xpath("//*[@id=\"team\"]/div/div[2]/div[2]/div/div/img");
     static By member_3 = By.xpath("//*[@id=\"team\"]/div/div[2]/div[3]/div/div/img");
