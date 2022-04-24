@@ -1,9 +1,9 @@
 package Tests;
+
 import Pages.HomePage.HomePage;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
-
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -21,7 +21,7 @@ public class Test_Homepage {
         Thread.sleep(1000);
     }
 
-    //Checking Title
+    //Verifying Title
     @Test(priority = 1)
     public void Check_Title() throws InterruptedException {
         Thread.sleep(2000);
@@ -34,28 +34,31 @@ public class Test_Homepage {
         catch (Exception e){
             System.out.println("Title is not matched");
         }
+//        Assert.assertEquals(HomePage.title(driver),title_to_check);
     }
 
-    //Checking Carousel
+    //Verifying Carousel
     @Test(priority = 1)
     void Carousel() throws InterruptedException {
         HomePage.carousel(driver);
         Thread.sleep(1000);
     }
 
-    //Checking Get Started Button
+    //Verifying Get Started Button
     @Test(priority = 2)
     void GetStarted_Btn() throws InterruptedException {
         HomePage.GetStarted_btn(driver);
         Thread.sleep(2000);
     }
 
+    //Verifying the team members
     @Test(priority = 2)
     void Check_members() throws InterruptedException{
         HomePage.Check_members(driver);
         Thread.sleep(2000);
     }
 
+    //Closing the browser
     @AfterTest
     void Close_Browser() {
         driver.close();
