@@ -1,0 +1,187 @@
+[INFO ] 2022-04-25 15:56:57.799 [main] LogSetup - Check_Titlestart
+[INFO ] 2022-04-25 15:57:01.839 [main] LogSetup - Carouselstart
+[INFO ] 2022-04-25 15:57:05.153 [main] LogSetup - GetStarted_Btnstart
+[INFO ] 2022-04-25 15:57:11.574 [main] LogSetup - Check_membersstart
+[INFO ] 2022-04-25 15:59:19.452 [main] LogSetup - Check_Titlestart
+[INFO ] 2022-04-25 15:59:24.606 [main] LogSetup - Carouselstart
+[INFO ] 2022-04-25 15:59:28.863 [main] LogSetup - GetStarted_Btnstart
+[INFO ] 2022-04-25 15:59:36.247 [main] LogSetup - Check_membersstart
+[INFO ] 2022-04-25 16:09:53.182 [main] LogSetup - Check_Titlestart
+[INFO ] 2022-04-25 16:09:58.263 [main] LogSetup - Check_Title success
+[INFO ] 2022-04-25 16:09:59.616 [main] LogSetup - Carouselstart
+[INFO ] 2022-04-25 16:10:03.633 [main] LogSetup - Carousel success
+[INFO ] 2022-04-25 16:10:04.530 [main] LogSetup - GetStarted_Btnstart
+[INFO ] 2022-04-25 16:10:11.955 [main] LogSetup - GetStarted_Btn success
+[INFO ] 2022-04-25 16:10:12.395 [main] LogSetup - Login_icon_buttonstart
+[INFO ] 2022-04-25 16:10:17.124 [main] LogSetup - Login_icon_button success
+[INFO ] 2022-04-25 16:10:17.534 [main] LogSetup - Check_membersstart
+[INFO ] 2022-04-25 16:10:30.668 [main] LogSetup - Check_members success
+[INFO ] 2022-04-25 16:10:30.920 [main] LogSetup - Click_logostart
+[INFO ] 2022-04-25 16:10:37.962 [main] LogSetup - Click_logo success
+[INFO ] 2022-04-25 16:10:38.703 [main] LogSetup - C:/Users/suhasm/Desktop/core/Product week/Automation Testing/HU-Allocation-Tool--Automation-master finished
+[INFO ] 2022-04-25 16:14:34.250 [main] LogSetup - Check_Titlestart
+[INFO ] 2022-04-25 16:14:39.327 [main] LogSetup - Check_Title success
+[INFO ] 2022-04-25 16:14:40.268 [main] LogSetup - Carouselstart
+[INFO ] 2022-04-25 16:14:43.439 [main] LogSetup - Carousel success
+[INFO ] 2022-04-25 16:14:44.308 [main] LogSetup - GetStarted_Btnstart
+[INFO ] 2022-04-25 16:14:51.719 [main] LogSetup - GetStarted_Btn success
+[INFO ] 2022-04-25 16:14:52.151 [main] LogSetup - Login_icon_buttonstart
+[INFO ] 2022-04-25 16:14:56.775 [main] LogSetup - Login_icon_button success
+[INFO ] 2022-04-25 16:14:57.196 [main] LogSetup - Check_membersstart
+[INFO ] 2022-04-25 16:15:10.267 [main] LogSetup - Check_members success
+[INFO ] 2022-04-25 16:15:10.524 [main] LogSetup - Click_logostart
+[INFO ] 2022-04-25 16:15:15.493 [main] LogSetup - Click_logo success
+[INFO ] 2022-04-25 16:15:16.413 [main] LogSetup - C:/Users/suhasm/Desktop/core/Product week/Automation Testing/HU-Allocation-Tool--Automation-master finished
+[INFO ] 2022-04-25 16:18:52.792 [main] LogSetup - Check_Titlestart
+[INFO ] 2022-04-25 16:18:57.881 [main] LogSetup - Check_Title success
+[INFO ] 2022-04-25 16:18:58.893 [main] LogSetup - Carouselstart
+[INFO ] 2022-04-25 16:19:01.057 [main] LogSetup - Carousel success
+[INFO ] 2022-04-25 16:19:02.207 [main] LogSetup - GetStarted_Btnstart
+[INFO ] 2022-04-25 16:19:08.522 [main] LogSetup - GetStarted_Btn success
+[INFO ] 2022-04-25 16:19:08.935 [main] LogSetup - Login_icon_buttonstart
+[INFO ] 2022-04-25 16:19:12.586 [main] LogSetup - Login_icon_button success
+[INFO ] 2022-04-25 16:19:13.003 [main] LogSetup - Check_membersstart
+[INFO ] 2022-04-25 16:19:26.446 [main] LogSetup - Check_members success
+[INFO ] 2022-04-25 16:19:26.707 [main] LogSetup - Click_logostart
+[INFO ] 2022-04-25 16:19:31.714 [main] LogSetup - Click_logo success
+[INFO ] 2022-04-25 16:19:32.694 [main] LogSetup - C:/Users/suhasm/Desktop/core/Product week/Automation Testing/HU-Allocation-Tool--Automation-master finished
+[INFO ] 2022-04-25 16:21:33.366 [main] LogSetup - Check_Titlestart
+[INFO ] 2022-04-25 16:21:38.487 [main] LogSetup - Check_Title success
+[INFO ] 2022-04-25 16:21:39.468 [main] LogSetup - Carouselstart
+[INFO ] 2022-04-25 16:21:41.612 [main] LogSetup - Carousel success
+[INFO ] 2022-04-25 16:21:42.755 [main] LogSetup - GetStarted_Btnstart
+[INFO ] 2022-04-25 16:21:49.046 [main] LogSetup - GetStarted_Btn success
+[INFO ] 2022-04-25 16:21:49.476 [main] LogSetup - Login_icon_buttonstart
+[INFO ] 2022-04-25 16:21:53.129 [main] LogSetup - Login_icon_button success
+[INFO ] 2022-04-25 16:21:53.532 [main] LogSetup - Check_membersstart
+[INFO ] 2022-04-25 16:22:06.967 [main] LogSetup - Check_members success
+[INFO ] 2022-04-25 16:22:07.217 [main] LogSetup - Click_logostart
+[INFO ] 2022-04-25 16:22:14.183 [main] LogSetup - Click_logo success
+[INFO ] 2022-04-25 16:22:15.727 [main] LogSetup - C:/Users/suhasm/Desktop/core/Product week/Automation Testing/HU-Allocation-Tool--Automation-master finished
+[INFO ] 2022-04-25 16:28:15.348 [main] LogSetup - Check_Titlestart
+[INFO ] 2022-04-25 16:28:15.354 [main] LogSetup - Carouselstart
+[INFO ] 2022-04-25 16:28:15.356 [main] LogSetup - GetStarted_Btnstart
+[INFO ] 2022-04-25 16:28:15.357 [main] LogSetup - Login_icon_buttonstart
+[INFO ] 2022-04-25 16:28:15.358 [main] LogSetup - Check_membersstart
+[INFO ] 2022-04-25 16:28:15.359 [main] LogSetup - Click_logostart
+[INFO ] 2022-04-25 16:28:15.361 [main] LogSetup - C:/Users/suhasm/Desktop/core/Product week/Automation Testing/HU-Allocation-Tool--Automation-master finished
+[INFO ] 2022-04-25 16:29:53.816 [main] LogSetup - Check_Titlestart
+[INFO ] 2022-04-25 16:29:53.824 [main] LogSetup - Carouselstart
+[INFO ] 2022-04-25 16:29:53.825 [main] LogSetup - GetStarted_Btnstart
+[INFO ] 2022-04-25 16:29:53.827 [main] LogSetup - Login_icon_buttonstart
+[INFO ] 2022-04-25 16:29:53.828 [main] LogSetup - Check_membersstart
+[INFO ] 2022-04-25 16:29:53.829 [main] LogSetup - Click_logostart
+[INFO ] 2022-04-25 16:29:53.831 [main] LogSetup - C:/Users/suhasm/Desktop/core/Product week/Automation Testing/HU-Allocation-Tool--Automation-master finished
+[INFO ] 2022-04-25 16:41:29.346 [main] LogSetup - Check_Titlestart
+[INFO ] 2022-04-25 16:41:29.357 [main] LogSetup - Carouselstart
+[INFO ] 2022-04-25 16:41:29.359 [main] LogSetup - GetStarted_Btnstart
+[INFO ] 2022-04-25 16:41:29.361 [main] LogSetup - Login_icon_buttonstart
+[INFO ] 2022-04-25 16:41:29.363 [main] LogSetup - Check_membersstart
+[INFO ] 2022-04-25 16:41:29.365 [main] LogSetup - Click_logostart
+[INFO ] 2022-04-25 16:41:29.370 [main] LogSetup - C:/Users/suhasm/Desktop/core/Product week/Automation Testing/HU-Allocation-Tool--Automation-master finished
+[INFO ] 2022-04-25 16:44:09.213 [main] LogSetup - Check_Titlestart
+[INFO ] 2022-04-25 16:44:09.221 [main] LogSetup - Carouselstart
+[INFO ] 2022-04-25 16:44:09.223 [main] LogSetup - GetStarted_Btnstart
+[INFO ] 2022-04-25 16:44:09.225 [main] LogSetup - Login_icon_buttonstart
+[INFO ] 2022-04-25 16:44:09.227 [main] LogSetup - Check_membersstart
+[INFO ] 2022-04-25 16:44:09.230 [main] LogSetup - Click_logostart
+[INFO ] 2022-04-25 16:44:09.232 [main] LogSetup - C:/Users/suhasm/Desktop/core/Product week/Automation Testing/HU-Allocation-Tool--Automation-master finished
+[INFO ] 2022-04-25 16:45:06.641 [main] LogSetup - Check_Titlestart
+[INFO ] 2022-04-25 16:45:06.649 [main] LogSetup - Carouselstart
+[INFO ] 2022-04-25 16:45:06.650 [main] LogSetup - GetStarted_Btnstart
+[INFO ] 2022-04-25 16:45:06.652 [main] LogSetup - Login_icon_buttonstart
+[INFO ] 2022-04-25 16:45:06.653 [main] LogSetup - Check_membersstart
+[INFO ] 2022-04-25 16:45:06.656 [main] LogSetup - Click_logostart
+[INFO ] 2022-04-25 16:45:06.658 [main] LogSetup - C:/Users/suhasm/Desktop/core/Product week/Automation Testing/HU-Allocation-Tool--Automation-master finished
+[INFO ] 2022-04-25 16:46:35.457 [main] LogSetup - Check_Titlestart
+[INFO ] 2022-04-25 16:46:35.465 [main] LogSetup - Carouselstart
+[INFO ] 2022-04-25 16:46:35.467 [main] LogSetup - GetStarted_Btnstart
+[INFO ] 2022-04-25 16:46:35.469 [main] LogSetup - Login_icon_buttonstart
+[INFO ] 2022-04-25 16:46:35.470 [main] LogSetup - Check_membersstart
+[INFO ] 2022-04-25 16:46:35.471 [main] LogSetup - Click_logostart
+[INFO ] 2022-04-25 16:46:35.473 [main] LogSetup - C:/Users/suhasm/Desktop/core/Product week/Automation Testing/HU-Allocation-Tool--Automation-master finished
+[INFO ] 2022-04-25 16:48:11.698 [main] LogSetup - Check_Titlestart
+[INFO ] 2022-04-25 16:48:11.704 [main] LogSetup - Carouselstart
+[INFO ] 2022-04-25 16:48:11.705 [main] LogSetup - GetStarted_Btnstart
+[INFO ] 2022-04-25 16:48:11.707 [main] LogSetup - Login_icon_buttonstart
+[INFO ] 2022-04-25 16:48:11.708 [main] LogSetup - Check_membersstart
+[INFO ] 2022-04-25 16:48:11.711 [main] LogSetup - Click_logostart
+[INFO ] 2022-04-25 16:48:11.713 [main] LogSetup - C:/Users/suhasm/Desktop/core/Product week/Automation Testing/HU-Allocation-Tool--Automation-master finished
+[INFO ] 2022-04-25 16:52:23.917 [main] LogSetup - Check_Titlestart
+[INFO ] 2022-04-25 16:52:29.008 [main] LogSetup - Check_Title success
+[INFO ] 2022-04-25 16:52:29.950 [main] LogSetup - Carouselstart
+[INFO ] 2022-04-25 16:52:33.324 [main] LogSetup - Carousel success
+[INFO ] 2022-04-25 16:52:34.278 [main] LogSetup - GetStarted_Btnstart
+[INFO ] 2022-04-25 16:52:40.782 [main] LogSetup - GetStarted_Btn success
+[INFO ] 2022-04-25 16:52:41.221 [main] LogSetup - Login_icon_buttonstart
+[INFO ] 2022-04-25 16:52:44.840 [main] LogSetup - Login_icon_button success
+[INFO ] 2022-04-25 16:52:45.252 [main] LogSetup - Check_membersstart
+[INFO ] 2022-04-25 16:52:58.701 [main] LogSetup - Check_members success
+[INFO ] 2022-04-25 16:52:58.947 [main] LogSetup - Click_logostart
+[INFO ] 2022-04-25 16:53:02.848 [main] LogSetup - Click_logo success
+[INFO ] 2022-04-25 16:53:03.624 [main] LogSetup - C:/Users/suhasm/Desktop/core/Product week/Automation Testing/HU-Allocation-Tool--Automation-master finished
+[INFO ] 2022-04-25 16:54:50.860 [main] LogSetup - Check_Titlestart
+[INFO ] 2022-04-25 16:54:55.936 [main] LogSetup - Check_Title success
+[INFO ] 2022-04-25 16:54:56.873 [main] LogSetup - Carouselstart
+[INFO ] 2022-04-25 16:55:00.190 [main] LogSetup - Carousel success
+[INFO ] 2022-04-25 16:55:01.111 [main] LogSetup - GetStarted_Btnstart
+[INFO ] 2022-04-25 16:55:07.517 [main] LogSetup - GetStarted_Btn success
+[INFO ] 2022-04-25 16:55:07.938 [main] LogSetup - Login_icon_buttonstart
+[INFO ] 2022-04-25 16:55:11.566 [main] LogSetup - Login_icon_button success
+[INFO ] 2022-04-25 16:55:11.980 [main] LogSetup - Check_membersstart
+[INFO ] 2022-04-25 16:55:25.409 [main] LogSetup - Check_members success
+[INFO ] 2022-04-25 16:55:25.669 [main] LogSetup - Click_logostart
+[INFO ] 2022-04-25 16:55:31.585 [main] LogSetup - Click_logo success
+[INFO ] 2022-04-25 16:55:32.422 [main] LogSetup - C:/Users/suhasm/Desktop/core/Product week/Automation Testing/HU-Allocation-Tool--Automation-master finished
+[INFO ] 2022-04-25 16:57:33.634 [main] LogSetup - Check_Titlestart
+[INFO ] 2022-04-25 16:57:38.727 [main] LogSetup - Check_Title success
+[INFO ] 2022-04-25 16:57:39.654 [main] LogSetup - Carouselstart
+[INFO ] 2022-04-25 16:57:42.989 [main] LogSetup - Carousel success
+[INFO ] 2022-04-25 16:57:43.889 [main] LogSetup - GetStarted_Btnstart
+[INFO ] 2022-04-25 16:57:50.297 [main] LogSetup - GetStarted_Btn success
+[INFO ] 2022-04-25 16:57:50.698 [main] LogSetup - Login_icon_buttonstart
+[INFO ] 2022-04-25 16:57:54.317 [main] LogSetup - Login_icon_button success
+[INFO ] 2022-04-25 16:57:54.719 [main] LogSetup - Check_membersstart
+[INFO ] 2022-04-25 16:58:08.133 [main] LogSetup - Check_members success
+[INFO ] 2022-04-25 16:58:08.389 [main] LogSetup - Click_logostart
+[INFO ] 2022-04-25 16:58:14.234 [main] LogSetup - Click_logo success
+[INFO ] 2022-04-25 16:58:15.013 [main] LogSetup - C:/Users/suhasm/Desktop/core/Product week/Automation Testing/HU-Allocation-Tool--Automation-master finished
+[INFO ] 2022-04-25 16:59:03.635 [main] LogSetup - Check_Titlestart
+[INFO ] 2022-04-25 16:59:08.704 [main] LogSetup - Check_Title success
+[INFO ] 2022-04-25 16:59:09.644 [main] LogSetup - Carouselstart
+[INFO ] 2022-04-25 16:59:12.985 [main] LogSetup - Carousel success
+[INFO ] 2022-04-25 16:59:13.879 [main] LogSetup - GetStarted_Btnstart
+[INFO ] 2022-04-25 16:59:20.296 [main] LogSetup - GetStarted_Btn success
+[INFO ] 2022-04-25 16:59:20.732 [main] LogSetup - Login_icon_buttonstart
+[INFO ] 2022-04-25 16:59:24.361 [main] LogSetup - Login_icon_button success
+[INFO ] 2022-04-25 16:59:24.776 [main] LogSetup - Check_membersstart
+[INFO ] 2022-04-25 16:59:38.179 [main] LogSetup - Check_members success
+[INFO ] 2022-04-25 16:59:38.460 [main] LogSetup - Click_logostart
+[INFO ] 2022-04-25 16:59:44.550 [main] LogSetup - Click_logo success
+[INFO ] 2022-04-25 16:59:45.954 [main] LogSetup - C:/Users/suhasm/Desktop/core/Product week/Automation Testing/HU-Allocation-Tool--Automation-master finished
+[INFO ] 2022-04-25 17:00:28.045 [main] LogSetup - Check_Titlestart
+[INFO ] 2022-04-25 17:00:33.635 [main] LogSetup - Check_Title success
+[INFO ] 2022-04-25 17:00:34.971 [main] LogSetup - Carouselstart
+[INFO ] 2022-04-25 17:00:38.437 [main] LogSetup - Carousel success
+[INFO ] 2022-04-25 17:00:39.529 [main] LogSetup - GetStarted_Btnstart
+[INFO ] 2022-04-25 17:00:46.347 [main] LogSetup - GetStarted_Btn success
+[INFO ] 2022-04-25 17:00:46.782 [main] LogSetup - Login_icon_buttonstart
+[INFO ] 2022-04-25 17:00:50.408 [main] LogSetup - Login_icon_button success
+[INFO ] 2022-04-25 17:00:50.833 [main] LogSetup - Check_membersstart
+[INFO ] 2022-04-25 17:01:04.295 [main] LogSetup - Check_members success
+[INFO ] 2022-04-25 17:01:04.554 [main] LogSetup - Click_logostart
+[INFO ] 2022-04-25 17:01:09.785 [main] LogSetup - Click_logo success
+[INFO ] 2022-04-25 17:01:10.605 [main] LogSetup - C:/Users/suhasm/Desktop/core/Product week/Automation Testing/HU-Allocation-Tool--Automation-master finished
+[INFO ] 2022-04-25 17:08:08.542 [main] LogSetup - Check_Title start
+[INFO ] 2022-04-25 17:08:10.791 [main] LogSetup - Check_Title success
+[INFO ] 2022-04-25 17:08:11.781 [main] LogSetup - Carousel start
+[INFO ] 2022-04-25 17:08:15.167 [main] LogSetup - Carousel success
+[INFO ] 2022-04-25 17:08:16.086 [main] LogSetup - GetStarted_Btn start
+[INFO ] 2022-04-25 17:08:22.474 [main] LogSetup - GetStarted_Btn success
+[INFO ] 2022-04-25 17:08:22.915 [main] LogSetup - Login_icon_button start
+[INFO ] 2022-04-25 17:08:26.556 [main] LogSetup - Login_icon_button success
+[INFO ] 2022-04-25 17:08:26.981 [main] LogSetup - Check_members start
+[INFO ] 2022-04-25 17:08:40.409 [main] LogSetup - Check_members success
+[INFO ] 2022-04-25 17:08:40.664 [main] LogSetup - Click_logo start
+[INFO ] 2022-04-25 17:08:45.634 [main] LogSetup - Click_logo success
+[INFO ] 2022-04-25 17:08:46.495 [main] LogSetup - C:/Users/suhasm/Desktop/core/Product week/Automation Testing/HU-Allocation-Tool--Automation-master finished
