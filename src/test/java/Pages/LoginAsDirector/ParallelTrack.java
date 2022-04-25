@@ -26,7 +26,7 @@ public class ParallelTrack {
     private static Class<Pages.LoginAsDirector.ParallelTrack> ParallelTrack;
     static Logger logger= LogManager.getLogger(ParallelTrack);
 
-
+    //before test
     @BeforeTest
     public  void launch() throws IOException, InterruptedException {
         System.setProperty("webdriver.chrome.driver","C:\\Users\\shredeshpande\\Downloads\\chromedriver.exe");
@@ -34,6 +34,7 @@ public class ParallelTrack {
         driver.get("https://automatedhuallocation-ui-urtjok3rza-wl.a.run.app/");
         driver.manage().window().maximize();
         sleep(3000);
+
     }
 
     //@Test(priority = 0)
