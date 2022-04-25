@@ -2,11 +2,11 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="src.test.java">
     <listeners>
-        <listener class-name="Pages.Listener"></listener>
+        <listener class-name="Pages.PreferenceTrack.Listener"></listener>
     </listeners>
     <test name="Sel_Main_Assignment">
         <classes>
-            <class name="Tests.AppTest"></class>
+            <class name="Tests.TestPreferenceTrack"></class>
         </classes>
     </test>
 </suite>
