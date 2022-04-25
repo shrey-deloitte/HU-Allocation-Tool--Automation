@@ -27,7 +27,7 @@ public class Method_container {
         System.out.println("Q:A :- Open Website");
         test.log(Status.INFO,"Starting of test cases Q:A :- Open Website");
         log.info("Q:A :- Open Website");
-        System.setProperty("webdriver.chrome.driver", "/Users/sanyalsubhajit39/Softwares/chromedriver2");
+        System.setProperty("webdriver.chrome.driver", "chromedriver-path");
         test.pass("Web driver is initialized successfully");
         driver = new ChromeDriver();
         driver.get("https://automatedhuallocation-ui-urtjok3rza-wl.a.run.app");
