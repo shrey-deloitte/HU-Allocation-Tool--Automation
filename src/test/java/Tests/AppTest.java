@@ -34,15 +34,21 @@ public class AppTest
             checkthebutton(Test,log);
         }
         @Test(priority = 5)
-        public void set_preferences() throws Exception
+        public void set_preferencesTrack() throws Exception
         {
-            ExtentTest Test = extent.createTest("T3");
-            assert (settingthepreference(Test,log)==true);
+            ExtentTest Test = extent.createTest("T4");
+            assert (settingthepreferenceTrack(Test,log)==true);
+        }
+        @Test(priority = 6)
+        public void set_preferencesMonth() throws Exception
+        {
+            ExtentTest Test = extent.createTest("T5");
+            assert (settingthepreferenceMonth(Test,log)==true);
         }
        // @AfterClass
         public void close()
         {
-            ExtentTest Test = extent.createTest("T4");
+            ExtentTest Test = extent.createTest("T6");
             closing(Test,log);
         }
 
