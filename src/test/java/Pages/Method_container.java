@@ -18,9 +18,6 @@ public class Method_container {
     static WebDriver driver;
     static int number=1;
 
-
-
-
     public static void initialSetup(ExtentTest test,Logger log) throws Exception
     {
         //Loading CSV
@@ -52,8 +49,9 @@ public class Method_container {
         WebElement pass = driver.findElement(By.xpath("/html/body/div[2]/div/div[2]/div/div/div[2]/form/div[2]/div[2]/div/div/span/input"));
         pass.sendKeys("password");
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/div/div[2]/div/div/div[2]/form/div[3]/div/div/div/button"))).click();
+        Thread.sleep(2000);
         boolean Status = driver.findElement(By.xpath("//div[@class='myimg']")).isDisplayed();
-        if (Status){
+        if (Status==false){
             test.pass("logging failed");
             log.info("logging failed");
             System.out.println("logging failed");
@@ -79,17 +77,17 @@ public class Method_container {
         jse.executeScript("window.scrollBy(300,0)");
 
     }
-    public  static boolean settingthepreference(ExtentTest test,Logger log) throws Exception{
+    public  static boolean settingthepreferenceMonth(ExtentTest test,Logger log) throws Exception{
         // Click "Home
-        WebDriverWait wait = new WebDriverWait(driver, 10);
+        WebDriverWait wait = new WebDriverWait(driver, 30);
         test.info("Q:D :- clicking on preference button" );
         System.out.println("Q:D :- clicking on preference button");
         log.info("Q:D :- clicking on preference button");
-        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[contains(text(),'Preference Form')]"))).click();
+        //wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[contains(text(),'Preference Form')]"))).click();
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[contains(text(),'Product Month Preference')]"))).click();
         // Choice 2
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"vertical-tabpanel-1\"]/div/p/div/div[1]/button[2]"))).click();
-        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[contains(text(),'Survey tool')]"))).click();
+        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[contains(text(),'Covid')]"))).click();
 
         // Choice 1
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"vertical-tabpanel-1\"]/div/p/div/div[1]/button[1]"))).click();
@@ -98,21 +96,49 @@ public class Method_container {
 
         // Choice 3
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"vertical-tabpanel-1\"]/div/p/div/div[1]/button[3]"))).click();
-        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[contains(text(),'Profind')]"))).click();
+        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[contains(text(),'Hashedin')]"))).click();
+
+        //submit
+        //wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@class='btn btn-success btn-lg']"))).click();
+        boolean Status = driver.findElement(By.xpath("//button[@class='btn btn-success btn-lg']")).isDisplayed();
+        if (Status==false){
+            test.pass("setting failed");
+            log.info("setting failed");
+            System.out.println("setting failed");
+            return false;
+        }
+        //Loggedin as new User
+        test.pass("setting set");
+        log.debug("setting set");
+        System.out.println("setting set");
+        return true;
+
+    }
+    public  static boolean settingthepreferenceTrack(ExtentTest test,Logger log) throws Exception{
+        // Click "Home
+        WebDriverWait wait = new WebDriverWait(driver, 30);
+        test.info("Q:D :- clicking on preference button" );
+        System.out.println("Q:D :- clicking on preference button");
+        log.info("Q:D :- clicking on preference button");
+        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[contains(text(),'Preference Form')]"))).click();
+        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[contains(text(),'Parallel Track Preference')]"))).click();
+        // Choice 2
+        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"vertical-tabpanel-0\"]/div/p/button"))).click();
+        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[contains(text(),'IOT')]"))).click();
 
         //submit
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@class='btn btn-success btn-lg']"))).click();
         boolean Status = driver.findElement(By.xpath("//button[@class='btn btn-success btn-lg']")).isDisplayed();
-        if (Status){
-            test.pass("logging failed");
-            log.info("logging failed");
-            System.out.println("logging failed");
+        if (Status==false){
+            test.pass("setting failed");
+            log.info("setting failed");
+            System.out.println("setting failed");
             return false;
         }
         //Loggedin as new User
-        test.pass("Read Info:- ");
-        log.debug("Read Info:- ");
-        System.out.println("Read Info:- ");
+        test.pass("setting set");
+        log.debug("setting set");
+        System.out.println("setting set");
         return true;
 
     }
