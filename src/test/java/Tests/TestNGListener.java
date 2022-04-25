@@ -1,5 +1,7 @@
-package Pages.LoginAsDirector;
+package Tests;
 
+import Pages.LoginAsDirector.ExtentReportsSetUp;
+import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import org.apache.logging.log4j.Logger;
@@ -7,14 +9,16 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 import java.io.IOException;
-public class TestNGListener implements ITestListener {
+public class TestNGListener extends Tests implements ITestListener {
     Logger log = ExtentReportsSetUp.log;
-    ExtentTest test = ExtentReportsSetUp.test;
+
+
+
 
     @Override
     public void onTestStart(ITestResult result) {
         log.info(result.getMethod().getMethodName() + " start");
-        test.log(Status.INFO, result.getMethod().getMethodName() + " start");
+        takeScreenshot();
         //ITestListener.super.onTestStart(result);
 
     }
@@ -22,13 +26,14 @@ public class TestNGListener implements ITestListener {
     @Override
     public void onTestSuccess(ITestResult result) {
         log.info(result.getMethod().getMethodName() + " success");
-        test.log(Status.PASS, result.getMethod().getMethodName() + " success");
+        takeScreenshot();
 
     }
 
     @Override
     public void onTestFailure(ITestResult result) {
-        test.fail(result.getMethod().getMethodName() + " test Fail");
+        log.info(result.getMethod().getMethodName() + " Failed");
+        takeScreenshot();
 
     }
 
@@ -48,9 +53,9 @@ public class TestNGListener implements ITestListener {
     }
 
     @Override
-    public void onFinish(ITestContext context) {
-        ExtentReportsSetUp.extent.flush();
-        ExtentReportsSetUp.log.traceExit();
+    public void onFinish(ITestContext result) {
+        log.info(result.getName() + " finished");
+        takeScreenshot();
 
     }
 

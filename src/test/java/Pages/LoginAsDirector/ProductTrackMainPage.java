@@ -103,7 +103,9 @@ public class ProductTrackMainPage {
             while (!element.isDisplayed()){
                 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
             }
-            element.click();
+            //element.click();
+            JavascriptExecutor jse = (JavascriptExecutor) driver;
+            jse.executeScript("arguments[0].click()", element);
             //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
             sleep(2000);
 

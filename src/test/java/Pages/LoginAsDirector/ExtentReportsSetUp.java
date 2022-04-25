@@ -8,12 +8,10 @@ import org.apache.logging.log4j.Logger;
 public class ExtentReportsSetUp {
 
     public static Logger log;
-    public static ExtentReports extent;
-    public static ExtentTest test;
+   public static ExtentHtmlReporter htmlReporter;
+   public static ExtentReports extent;
     static {
         log = LogManager.getLogger(ExtentReportsSetUp.class.getName());
-        extent = new ExtentReports();
-        extent.attachReporter(new ExtentHtmlReporter("extentReports.html"));
-        test = extent.createTest("Main Assignment", "Test Description");
+
     }
 }

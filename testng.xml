@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <listeners>
-        <listener class-name="Pages.LoginAsDirector.TestNGListener"></listener>
+        <listener class-name="Tests.TestNGListener"></listener>
     </listeners>
     <test
           name="test-1">

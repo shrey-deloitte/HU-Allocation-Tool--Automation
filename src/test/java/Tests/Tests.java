@@ -4,12 +4,11 @@ import Pages.LoginAsDirector.AllProductsList;
 import Pages.LoginAsDirector.LoginPage;
 import Pages.LoginAsDirector.ProductTrackMainPage;
 import net.bytebuddy.build.Plugin;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
+import org.openqa.selenium.io.FileHandler;
 import org.testng.Assert;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
@@ -26,7 +25,8 @@ import java.util.Objects;
 
 
 public class Tests {
-    WebDriver driver;
+   static WebDriver driver;
+    static int i = 1;
     File folder;
     String HomeUrl="https://automatedhuallocation-ui-urtjok3rza-wl.a.run.app/";
     LoginPage loginPage;
@@ -48,13 +48,7 @@ public class Tests {
 
 
     }
-//    @BeforeSuite
-//    public void setup() throws InterruptedException {
-//
-//
-//
-//
-//    }
+
     @Test(priority = 1)
     public void loginAvatarClick() throws InterruptedException {
        loginPage =new LoginPage(driver);
@@ -150,5 +144,16 @@ public class Tests {
 
     //driver.quit();
 
+    }
+    public static void takeScreenshot() {
+
+        try {
+            File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+            //The below method will save the screen shot in destination directory
+            FileHandler.copy(scrFile, new File(System.getProperty("user.dir") + "/src/" + "sample" + i + ".png"));
+            i++;
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
