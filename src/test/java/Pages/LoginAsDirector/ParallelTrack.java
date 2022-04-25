@@ -36,7 +36,7 @@ public class ParallelTrack {
         sleep(3000);
     }
 
-    @Test(priority = 0)
+    //@Test(priority = 0)
     public void login() throws InterruptedException {
         driver.findElement(By.xpath("//span[@role='img']")).click();
         driver.findElement(By.xpath("//input[@id='basic_username']")).sendKeys("HUDIRECTOR");
@@ -164,6 +164,7 @@ public class ParallelTrack {
         sleep(3000);
         driver.navigate().back();
         logger.info("dropdowns checked");
+
     }
 
    //@Test(priority = 8)
