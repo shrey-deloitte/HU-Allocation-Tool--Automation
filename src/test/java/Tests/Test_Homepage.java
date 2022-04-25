@@ -10,24 +10,21 @@ import org.testng.annotations.*;
 import java.io.File;
 import java.io.IOException;
 
-
 public class Test_Homepage {
 
     static WebDriver driver;
-    static int i=1;
+    static int i = 1;
     String title_to_check = "HU ALLOCATION TOOL";
 
     //Initializing web driver
     @BeforeSuite
     public void setup() throws InterruptedException {
         driver = HomePage.open_page();
-        Thread.sleep(1000);
     }
 
     //Verifying Title
     @Test(priority = 1)
     public void Check_Title() throws InterruptedException {
-
         try {
             String title = HomePage.title(driver);
             Assert.assertEquals(title,title_to_check);
@@ -37,36 +34,37 @@ public class Test_Homepage {
             System.out.println("Title is not matched");
         }
         //Assert.assertEquals(HomePage.title(driver),title_to_check);
-
     }
 
     //Verifying Carousel
     @Test(priority = 2)
     void Carousel() throws InterruptedException {
         HomePage.carousel(driver);
-        takeScreenshot();
-
     }
 
     //Verifying Get Started Button
     @Test(priority = 3)
     void GetStarted_Btn() throws InterruptedException {
         HomePage.GetStarted_btn(driver);
+        takeScreenshot();
         Thread.sleep(1000);
+        HomePage.Cancel_button(driver);
     }
 
-    //Verfying the Login icon Button
+    //Verifying the Login icon Button
     @Test(priority = 4)
     void Login_icon_button() throws InterruptedException {
         HomePage.Login_icon(driver);
+        takeScreenshot();
         Thread.sleep(1000);
+        HomePage.Cancel_button(driver);
     }
+
     //Verifying the team members
     @Test(priority = 5)
     void Check_members() throws InterruptedException{
         HomePage.Check_members(driver);
         takeScreenshot();
-        Thread.sleep(2000);
     }
 
     //Clicking on the website Logo to return Homepage

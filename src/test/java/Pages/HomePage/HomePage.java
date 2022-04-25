@@ -48,16 +48,18 @@ public class HomePage {
         Thread.sleep(2000);
 
         driver.findElement(GetStarted).click();
-        Thread.sleep(2000);
+        Thread.sleep(1000);
+    }
 
+    //Cancel Button
+    public static void Cancel_button(WebDriver driver) {
         driver.findElement(cancel).click();
     }
 
     //Login icon button
     public static void Login_icon(WebDriver driver) throws InterruptedException {
         driver.findElement(LoginIcon).click();
-        Thread.sleep(2000);
-        driver.findElement(cancel).click();
+        Thread.sleep(1000);
     }
 
     //Team Members
@@ -70,7 +72,7 @@ public class HomePage {
 
         JavascriptExecutor jse = (JavascriptExecutor) driver;
         jse.executeScript("window.scrollBy(0,500)");
-        Thread.sleep(2000);
+        Thread.sleep(500);
 
         Actions act = new Actions(driver);
         act.moveToElement(member1).perform();
