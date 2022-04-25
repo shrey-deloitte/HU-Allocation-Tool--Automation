@@ -1,5 +1,7 @@
 package Pages.LoginAsDirector;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
@@ -18,6 +20,8 @@ import static java.lang.Thread.sleep;
 
 public class ParallelTrack {
     static WebDriver driver;
+    private static Class<Pages.LoginAsDirector.ParallelTrack> ParallelTrack;
+    static Logger logger= LogManager.getLogger(ParallelTrack);
 
 
     @BeforeTest
@@ -27,6 +31,7 @@ public class ParallelTrack {
         driver.get("https://automatedhuallocation-ui-urtjok3rza-wl.a.run.app/");
         driver.manage().window().maximize();
         sleep(3000);
+
     }
 
     @Test(priority = 0)
@@ -36,22 +41,34 @@ public class ParallelTrack {
         driver.findElement(By.xpath("//input[@id='basic_password']")).sendKeys("HUDIRECTOR");
         driver.findElement(By.xpath("//button[@type='submit']")).click();
         sleep(3000);
+        logger.info("logged in successfully");
     }
 
     @Test(priority = 1)
     public void OpenParallelTrack() throws InterruptedException {
         driver.findElement(By.xpath("//div[contains(text(),'Parallel Track')]")).click();
         sleep(3000);
+        logger.info("Parallel track opened");
     }
 
    @Test(priority = 2)
-    public void downloadSample(){
-        driver.findElement(By.xpath("//a[@download='linkerdata.csv']")).click();
-        driver.findElement(By.xpath("//a[@download='trackresults.csv']")).click();
-       driver.findElement(By.xpath("//a[@download='paralleltrack.csv']")).click();
-       driver.findElement(By.xpath("//a[@download='sectionlead.csv']")).click();
-       driver.findElement(By.xpath("//a[@download='productpref.csv']")).click();
+    public void downloadSample() throws InterruptedException {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollBy(0,200)");
 
+        driver.findElement(By.xpath("//a[@download='linkerdata.csv']")).click();
+        sleep(1000);
+        driver.findElement(By.xpath("//a[@download='trackresults.csv']")).click();
+        sleep(800);
+        js.executeScript("window.scrollBy(0,200)");
+       driver.findElement(By.xpath("//a[@download='paralleltrack.csv']")).click();
+       sleep(800);
+       driver.findElement(By.xpath("//a[@download='sectionlead.csv']")).click();
+       sleep(800);
+        js.executeScript("window.scrollBy(0,200)");
+       driver.findElement(By.xpath("//a[@download='parallelpref.csv']")).click();
+
+       logger.info("Downloaded all sample links");
 
     }
 
@@ -79,6 +96,9 @@ public class ParallelTrack {
                 element.sendKeys("C:\\Users\\shredeshpande\\Documents\\HU_ProductWeek\\parallelpref.csv");
             }
         }
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollBy(0,-1200)");
+        logger.info("Uploaded all sample data");
     }
 
     @Test(priority = 4)
@@ -90,10 +110,21 @@ public class ParallelTrack {
             while (!element.isDisplayed()){
                 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
             }
+            JavascriptExecutor js = (JavascriptExecutor) driver;
+            if(i==0){
+                js.executeScript("arguments[0].scrollIntoView();", element);
+              //  js.executeScript("window.scrollBy(0,-2800)");
+            }
+
+            js.executeScript("arguments[0].scrollIntoView();", element);
             element.click();
+            js.executeScript("window.scrollBy(0,700)");
+
             sleep(3000);
 
+
         }
+        logger.info("Show data buttons clicked");
     }
 
     //@Test(priority = 5)
@@ -113,6 +144,7 @@ public class ParallelTrack {
         driver.findElement(By.xpath("//input[@value='1']")).click();
         driver.findElement(By.xpath("//input[@value='2']")).click();
         driver.findElement(By.xpath("//a[@href='/analysis']")).click();
+        logger.info("perform analysis button clicked ");
     }
 
     @Test(priority = 7)
@@ -122,18 +154,20 @@ public class ParallelTrack {
      //   sleep(1000);
         driver.findElement(By.className("accordion-item")).click();
         sleep(1000);
-        driver.findElement(By.xpath("//strong[contains(text(),'Data Engineering')]")).click();
-        driver.findElement(By.xpath("//a[contains(text(),'lchinnery7')]")).click();
+       // driver.findElement(By.xpath("//strong[contains(text(),'Data Engineering')]")).click();
+       // driver.findElement(By.xpath("//a[contains(text(),'lchinnery7')]")).click();
 
         sleep(3000);
         driver.navigate().back();
+        logger.info("dropdowns checked");
     }
 
-   @Test(priority = 8)
+   //@Test(priority = 8)
     public void editTeamTrack() {
        WebElement ele = driver.findElement(By.xpath("//button[@class='btnstart performbtn1 btn btn-primary btn-lg']"));
        JavascriptExecutor jse = (JavascriptExecutor) driver;
        jse.executeScript("arguments[0].click()", ele);
+
     }
 
 //        driver.findElement(By.xpath("//input[@id='combo-box-demo2']")).click();
@@ -164,6 +198,7 @@ public class ParallelTrack {
 
 
         }
+        logger.info("drag and dropped");
     }
 
 }
