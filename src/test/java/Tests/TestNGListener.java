@@ -13,8 +13,6 @@ public class TestNGListener extends Tests implements ITestListener {
     Logger log = ExtentReportsSetUp.log;
 
 
-
-
     @Override
     public void onTestStart(ITestResult result) {
         log.info(result.getMethod().getMethodName() + " start");

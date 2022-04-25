@@ -144,13 +144,14 @@ public class Tests {
 
     //driver.quit();
 
+
     }
     public static void takeScreenshot() {
 
         try {
             File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
             //The below method will save the screen shot in destination directory
-            FileHandler.copy(scrFile, new File(System.getProperty("user.dir") + "/src/" + "sample" + i + ".png"));
+            FileHandler.copy(scrFile, new File(System.getProperty("user.dir") + "/src/Screenshots/" + "sample" + i + ".png"));
             i++;
         } catch (IOException e) {
             e.printStackTrace();
