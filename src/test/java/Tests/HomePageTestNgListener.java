@@ -34,7 +34,6 @@ public class HomePageTestNgListener extends Test_Homepage implements ITestListen
 
     @Override
     public void onTestFailedButWithinSuccessPercentage(ITestResult iTestResult) {
-
     }
 
     @Override

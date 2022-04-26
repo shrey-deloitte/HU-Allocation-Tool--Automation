@@ -33,6 +33,7 @@ public class Test_Homepage {
         catch (Exception e){
             System.out.println("Title is not matched");
         }
+
         //Assert.assertEquals(HomePage.title(driver),title_to_check);
     }
 

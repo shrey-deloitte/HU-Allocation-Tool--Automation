@@ -87,6 +87,7 @@ public class HomePage {
         jse.executeScript("window.scrollBy(0,2000)");
     }
 
+
     //Clicking Website Logo to return HomePage
     public static void Website_Logo(WebDriver driver) {
         driver.findElement(Logo).click();
