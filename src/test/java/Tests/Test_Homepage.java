@@ -78,7 +78,7 @@ public class Test_Homepage {
     public static void takeScreenshot() {
         try {
             File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-            FileHandler.copy(scrFile, new File(System.getProperty("user.dir") + "/src/screenshots/" + "screenshot " + i + ".png"));
+            FileHandler.copy(scrFile, new File(System.getProperty("user.dir") + "/src/HomePage_screenshots/" + "screenshot " + i + ".png"));
             i++;
         } catch (IOException e) {
             e.printStackTrace();

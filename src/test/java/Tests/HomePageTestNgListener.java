@@ -1,12 +1,12 @@
 package Tests;
 
-import Pages.LogSetup;
+import Pages.HomePage.LogSetup;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.apache.logging.log4j.Logger;
 import org.testng.ITestResult;
 
-public class TestNgListener  extends Test_Homepage implements ITestListener {
+public class HomePageTestNgListener extends Test_Homepage implements ITestListener {
     Logger log = LogSetup.log;
 
     @Override
