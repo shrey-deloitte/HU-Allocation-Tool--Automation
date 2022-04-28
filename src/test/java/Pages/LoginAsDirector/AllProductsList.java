@@ -122,6 +122,7 @@ public class AllProductsList {
 
         for(WebElement ele:radios){
             ele.click();
+
             Assert.assertEquals(ele.isSelected(),true);
         }
         WebElement receiverElement = driver.findElement(receiver);
