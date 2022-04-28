@@ -1,5 +1,6 @@
 package Pages.LoginAsDirector;
 
+import Tests.baseClass;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.*;
@@ -9,6 +10,8 @@ import org.openqa.selenium.io.FileHandler;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -27,9 +30,9 @@ public class ParallelTrack {
     static Logger logger= LogManager.getLogger(ParallelTrack);
 
     //before test
-    @BeforeTest
+    @BeforeClass
     public  void launch() throws IOException, InterruptedException {
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\shredeshpande\\Downloads\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", baseClass.chromePath);
         driver=new ChromeDriver();
         driver.get("https://automatedhuallocation-ui-urtjok3rza-wl.a.run.app/");
         driver.manage().window().maximize();
@@ -37,7 +40,7 @@ public class ParallelTrack {
 
     }
 
-    //@Test(priority = 0)
+    @Test(priority = 0)
     public void login() throws InterruptedException {
         driver.findElement(By.xpath("//span[@role='img']")).click();
         driver.findElement(By.xpath("//input[@id='basic_username']")).sendKeys("HUDIRECTOR");
@@ -91,19 +94,19 @@ public class ParallelTrack {
             WebElement element = elementList.get(i);
 
             if(i==0){
-                element.sendKeys("C:\\Users\\shredeshpande\\Documents\\HU_ProductWeek\\linkerdata.csv");
+                element.sendKeys(baseClass.linkersDataFilePath);
             }
             if(i==1){
-                element.sendKeys("C:\\Users\\shredeshpande\\Documents\\HU_ProductWeek\\trackresults.csv");
+                element.sendKeys(baseClass.linkersDataFilePath);
             }
             if(i==2){
-                element.sendKeys("C:\\Users\\shredeshpande\\Documents\\HU_ProductWeek\\paralleltrack.csv");
+                element.sendKeys(baseClass.linkersDataFilePath);
             }
             if(i==3){
-                element.sendKeys("C:\\Users\\shredeshpande\\Documents\\HU_ProductWeek\\sectionlead.csv");
+                element.sendKeys(baseClass.linkersDataFilePath);
             }
             if(i==4){
-                element.sendKeys("C:\\Users\\shredeshpande\\Documents\\HU_ProductWeek\\parallelpref.csv");
+                element.sendKeys(baseClass.linkersDataFilePath);
             }
         }
         JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -168,7 +171,7 @@ public class ParallelTrack {
 
     }
 
-   //@Test(priority = 8)
+   @Test(priority = 8)
     public void editTeamTrack() throws InterruptedException {
         sleep(3000);
        WebElement ele = driver.findElement(By.xpath("//button[@class='btnstart performbtn1 btn btn-primary btn-lg']"));
@@ -204,6 +207,10 @@ public class ParallelTrack {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+    @AfterClass
+    public void tearDown(){
+        driver.quit();
     }
 
 }

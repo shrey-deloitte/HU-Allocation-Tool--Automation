@@ -17,7 +17,7 @@ public class Test_Homepage {
     String title_to_check = "HU ALLOCATION TOOL";
 
     //Initializing web driver
-    @BeforeSuite
+    @BeforeClass
     public void setup() throws InterruptedException {
         driver = HomePage.open_page();
     }
@@ -86,7 +86,7 @@ public class Test_Homepage {
     }
 
     //Closing the browser
-    @AfterSuite
+    @AfterClass
     void Close_Browser() {
         driver.close();
     }

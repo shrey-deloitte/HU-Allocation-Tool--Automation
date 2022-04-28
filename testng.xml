@@ -1,15 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
+<suite name="All Test Suite" parallel="tests" thread-count="5">
     <listeners>
-        <listener class-name="Tests.TestNGListener"></listener>
+        <listener class-name="Tests.HomePageTestNgListener"></listener>
     </listeners>
     <test
-          name="test-1">
+            name="HomePage Test" preserve-order="true">
+        <classes>
+            <class name="Tests.Test_Homepage">
+            </class>
+
+        </classes>
+
+    </test>
+
+    <test
+          name="Login As linker-1">
+        <classes>
+            <class name="Pages.LoginAsLinker.linkersTestcases">
+
+            </class>
+        </classes>
+    </test>
+
+    <test
+            name="Login As linker-2">
+        <classes>
+            <class name="Tests.TestPreferenceTrack">
+
+            </class>
+        </classes>
+    </test>
+    <test
+            name="Login As Director_ProductTrack">
         <classes>
             <class name="Tests.Tests">
 
             </class>
         </classes>
     </test>
+    <test
+            name="ogin As Director_ParallelTrack">
+        <classes>
+            <class name="Pages.LoginAsDirector.ParallelTrack">
+
+            </class>
+        </classes>
+    </test>
+
 </suite>
+
+

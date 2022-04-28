@@ -1,5 +1,6 @@
 package Pages.PreferenceTrack;
 
+import Tests.baseClass;
 import com.aventstack.extentreports.ExtentTest;
 
 import com.aventstack.extentreports.Status;
@@ -13,6 +14,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import org.testng.annotations.Listeners;
 
+import java.time.Duration;
+
 @Listeners(Listener.class)
 public class Method_container {
     static WebDriver driver;
@@ -24,7 +27,7 @@ public class Method_container {
         System.out.println("Q:A :- Open Website");
         test.log(Status.INFO,"Starting of test cases Q:A :- Open Website");
         log.info("Q:A :- Open Website");
-        System.setProperty("webdriver.chrome.driver", "chromedriver-path");
+        System.setProperty("webdriver.chrome.driver", baseClass.chromePath);
         test.pass("Web driver is initialized successfully");
         driver = new ChromeDriver();
         driver.get("https://automatedhuallocation-ui-urtjok3rza-wl.a.run.app");
@@ -35,7 +38,7 @@ public class Method_container {
 
     }
     public static boolean loggingin(ExtentTest test,Logger log) throws Exception{
-        WebDriverWait wait = new WebDriverWait(driver, 10);
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         test.info("login_using username and password");
         System.out.println("Q:B :- get the login username and password");
         log.info("Q:B :- get the login username and password");
@@ -64,7 +67,7 @@ public class Method_container {
 
     }
     public static void checkthebutton(ExtentTest test,Logger log) throws Exception{
-        WebDriverWait wait = new WebDriverWait(driver, 10);
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         test.info("login_using username and password");
         System.out.println("Q:B :- get the login username and password");
         log.info("Q:B :- get the login username and password");
@@ -79,7 +82,7 @@ public class Method_container {
     }
     public  static boolean settingthepreferenceMonth(ExtentTest test,Logger log) throws Exception{
         // Click "Home
-        WebDriverWait wait = new WebDriverWait(driver, 30);
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
         test.info("Q:D :- clicking on preference button" );
         System.out.println("Q:D :- clicking on preference button");
         log.info("Q:D :- clicking on preference button");
@@ -116,7 +119,7 @@ public class Method_container {
     }
     public  static boolean settingthepreferenceTrack(ExtentTest test,Logger log) throws Exception{
         // Click "Home
-        WebDriverWait wait = new WebDriverWait(driver, 30);
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
         test.info("Q:D :- clicking on preference button" );
         System.out.println("Q:D :- clicking on preference button");
         log.info("Q:D :- clicking on preference button");
@@ -152,4 +155,5 @@ public class Method_container {
         extentController.extent.flush();
         return null;
     }
+
 }

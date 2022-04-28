@@ -1,21 +1,29 @@
 package Tests;
 
 import Pages.PreferenceTrack.Listener;
+import Pages.PreferenceTrack.Method_container;
 import Pages.PreferenceTrack.extentController;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import static Pages.PreferenceTrack.Method_container.*;
+import static Pages.PreferenceTrack.extentController.test;
 
-@Listeners(Listener.class)
+//@Listeners(Listener.class)
 public class TestPreferenceTrack
     {
         Logger log = extentController.log;
         ExtentReports extent = extentController.extent;
-        
+        WebDriver driver;
+
+
         @Test(priority = 1)
         public void A_openTheWebsite() throws Exception {
             ExtentTest Test = extent.createTest("T1");
@@ -45,11 +53,14 @@ public class TestPreferenceTrack
             ExtentTest Test = extent.createTest("T5");
             assert (settingthepreferenceMonth(Test,log)==true);
         }
-       // @AfterClass
+        @AfterClass
         public void close()
         {
             ExtentTest Test = extent.createTest("T6");
             closing(Test,log);
+
+
+
         }
 
 
