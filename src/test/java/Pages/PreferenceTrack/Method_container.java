@@ -1,5 +1,6 @@
 package Pages.PreferenceTrack;
 
+import Tests.baseClass;
 import com.aventstack.extentreports.ExtentTest;
 
 import com.aventstack.extentreports.Status;
@@ -26,7 +27,7 @@ public class Method_container {
         System.out.println("Q:A :- Open Website");
         test.log(Status.INFO,"Starting of test cases Q:A :- Open Website");
         log.info("Q:A :- Open Website");
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\shubhamkumar32\\Downloads\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", baseClass.chromePath);
         test.pass("Web driver is initialized successfully");
         driver = new ChromeDriver();
         driver.get("https://automatedhuallocation-ui-urtjok3rza-wl.a.run.app");

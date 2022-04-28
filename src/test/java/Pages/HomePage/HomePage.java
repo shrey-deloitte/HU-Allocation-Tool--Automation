@@ -3,7 +3,7 @@ package Pages.HomePage;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
-
+import Tests.baseClass;
 public class HomePage {
 
     //Declaration of xpath and URL
@@ -21,7 +21,7 @@ public class HomePage {
 
     //Open Page
     public static WebDriver open_page() throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\shubhamkumar32\\Downloads\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", baseClass.chromePath);
         WebDriver driver = new ChromeDriver();
         driver.get(url);
         driver.manage().window().maximize();

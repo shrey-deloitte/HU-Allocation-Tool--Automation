@@ -1,4 +1,5 @@
 package Pages.LoginAsLinker;
+import Tests.baseClass;
 import Tests.extentReport;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -24,7 +25,7 @@ public class linkersTestcases extends extentReport {
     //@Test(priority = 1)
     @BeforeClass
     public void setup() throws Exception {
-       System.setProperty("webdriver.chrome.driver", "C:\\Users\\shubhamkumar32\\Downloads\\chromedriver.exe");
+       System.setProperty("webdriver.chrome.driver", baseClass.chromePath);
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
         driver.manage().window().maximize();

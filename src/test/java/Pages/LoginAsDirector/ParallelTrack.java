@@ -1,5 +1,6 @@
 package Pages.LoginAsDirector;
 
+import Tests.baseClass;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.*;
@@ -31,7 +32,7 @@ public class ParallelTrack {
     //before test
     @BeforeClass
     public  void launch() throws IOException, InterruptedException {
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\shubhamkumar32\\Downloads\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", baseClass.chromePath);
         driver=new ChromeDriver();
         driver.get("https://automatedhuallocation-ui-urtjok3rza-wl.a.run.app/");
         driver.manage().window().maximize();
@@ -93,19 +94,19 @@ public class ParallelTrack {
             WebElement element = elementList.get(i);
 
             if(i==0){
-                element.sendKeys("C:\\Users\\shubhamkumar32\\Downloads\\linkerdata.csv");
+                element.sendKeys(baseClass.linkersDataFilePath);
             }
             if(i==1){
-                element.sendKeys("C:\\Users\\shubhamkumar32\\Downloads\\linkerdata.csv");
+                element.sendKeys(baseClass.linkersDataFilePath);
             }
             if(i==2){
-                element.sendKeys("C:\\Users\\shubhamkumar32\\Downloads\\linkerdata.csv");
+                element.sendKeys(baseClass.linkersDataFilePath);
             }
             if(i==3){
-                element.sendKeys("C:\\Users\\shubhamkumar32\\Downloads\\linkerdata.csv");
+                element.sendKeys(baseClass.linkersDataFilePath);
             }
             if(i==4){
-                element.sendKeys("C:\\Users\\shubhamkumar32\\Downloads\\linkerdata.csv");
+                element.sendKeys(baseClass.linkersDataFilePath);
             }
         }
         JavascriptExecutor js = (JavascriptExecutor) driver;

@@ -34,7 +34,7 @@ public class Tests {
     @BeforeClass
     public void fileSetup(){
 
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\shubhamkumar32\\Downloads\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver",baseClass.chromePath);
 
 
 
