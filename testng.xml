@@ -15,7 +15,7 @@
     </test>
 
     <test
-          name="test-1">
+          name="Login As linker-1">
         <classes>
             <class name="Pages.LoginAsLinker.linkersTestcases">
 
@@ -24,7 +24,7 @@
     </test>
 
     <test
-            name="test-2">
+            name="Login As linker-2">
         <classes>
             <class name="Tests.TestPreferenceTrack">
 
@@ -32,7 +32,7 @@
         </classes>
     </test>
     <test
-            name="test-3">
+            name="Login As Director_ProductTrack">
         <classes>
             <class name="Tests.Tests">
 
@@ -40,7 +40,7 @@
         </classes>
     </test>
     <test
-            name="test-4">
+            name="ogin As Director_ParallelTrack">
         <classes>
             <class name="Pages.LoginAsDirector.ParallelTrack">
 
