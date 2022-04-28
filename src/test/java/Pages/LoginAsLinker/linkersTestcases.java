@@ -4,14 +4,12 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.Listeners;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 import com.aventstack.extentreports.ExtentReports;
 import org.apache.logging.log4j.Logger;
 
 import java.time.Duration;
-@Listeners(Listener.class)
+//@Listeners(Listener.class)
 public class linkersTestcases extends extentReport {
     Logger log = extentReport.log;
     ExtentReports extent = extentReport.extent;
@@ -22,9 +20,10 @@ public class linkersTestcases extends extentReport {
     String GetStarted = "//*[@id=\"root\"]/div/div[3]/div[1]/div[2]/button";
     String Notification = "//*[@id=\"root\"]/div/div[1]/div[3]/div[1]";
 
-    @Test(priority = 1)
+    //@Test(priority = 1)
+    @BeforeClass
     public void setup() throws Exception {
-        System.setProperty("webdriver.chrome.driver", "Driver/chromedriver.exe");
+       System.setProperty("webdriver.chrome.driver", "C:\\Users\\shubhamkumar32\\Downloads\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
         driver.manage().window().maximize();
@@ -72,9 +71,9 @@ public class linkersTestcases extends extentReport {
 
     }
 
-    @AfterTest
+    @AfterClass
     public void AppQuit() {
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+        //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
         driver.close();
     }
 }

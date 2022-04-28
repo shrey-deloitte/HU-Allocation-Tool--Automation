@@ -1,15 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <listeners>
-        <listener class-name="Tests.TestNGListener"></listener>
-    </listeners>
+<!--    <listeners>-->
+<!--        <listener class-name="Tests.HomePageTestNgListener"></listener>-->
+<!--    </listeners>-->
+    <test
+            name="HomePage Test" preserve-order="true">
+        <classes>
+            <class name="Tests.Test_Homepage">
+            </class>
+
+        </classes>
+
+    </test>
+
     <test
           name="test-1">
+        <classes>
+            <class name="Pages.LoginAsLinker.linkersTestcases">
+
+            </class>
+        </classes>
+    </test>
+
+    <test
+            name="test-2">
+        <classes>
+            <class name="Tests.TestPreferenceTrack">
+
+            </class>
+        </classes>
+    </test>
+    <test
+            name="test-3">
         <classes>
             <class name="Tests.Tests">
 
             </class>
         </classes>
     </test>
+    <test
+            name="test-4">
+        <classes>
+            <class name="Pages.LoginAsDirector.ParallelTrack">
+
+            </class>
+        </classes>
+    </test>
+
 </suite>
+
+

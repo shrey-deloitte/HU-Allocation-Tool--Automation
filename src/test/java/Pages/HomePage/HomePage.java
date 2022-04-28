@@ -21,7 +21,7 @@ public class HomePage {
 
     //Open Page
     public static WebDriver open_page() throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\suhasm\\Downloads\\selenium\\selenium 4.1.2\\chromedriver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\shubhamkumar32\\Downloads\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get(url);
         driver.manage().window().maximize();

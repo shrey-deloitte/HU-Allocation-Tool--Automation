@@ -10,10 +10,8 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 import org.openqa.selenium.io.FileHandler;
 import org.testng.Assert;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
+
 import static org.hamcrest.CoreMatchers.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 import java.io.File;
@@ -33,7 +31,7 @@ public class Tests {
     ProductTrackMainPage productTrackMainPage;
     AllProductsList allProductsList;
 
-    @BeforeSuite
+    @BeforeClass
     public void fileSetup(){
 
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\shubhamkumar32\\Downloads\\chromedriver.exe");
@@ -139,10 +137,10 @@ public class Tests {
         allProductsList.verifyAddNotif();
     }
 
-    @AfterSuite
+    @AfterClass
     public void tearDown(){
 
-    //driver.quit();
+    driver.quit();
 
 
     }
