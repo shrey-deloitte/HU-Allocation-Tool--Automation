@@ -6,25 +6,28 @@ import org.testng.ITestListener;
 import org.apache.logging.log4j.Logger;
 import org.testng.ITestResult;
 
-public class HomePageTestNgListener extends Test_Homepage implements ITestListener {
+public class HomePageTestNgListener  implements ITestListener {
     Logger log = LogSetup.log;
 
     @Override
     public void onTestStart(ITestResult result){
         log.info(result.getMethod().getMethodName() +" start");
-        takeScreenshot();
+        System.out.println(result.getMethod().getMethodName()+"start");
+       // takeScreenshot();
     }
 
     @Override
     public void onTestSuccess(ITestResult result) {
         log.info(result.getMethod().getMethodName() + " success");
-        takeScreenshot();
+        System.out.println(result.getMethod().getMethodName()+"success");
+       // takeScreenshot();
     }
 
     @Override
     public void onTestFailure(ITestResult result) {
         log.info(result.getMethod().getMethodName() + " Failed");
-        takeScreenshot();
+        System.out.println(result.getMethod().getMethodName()+"failed");
+       // takeScreenshot();
     }
 
     @Override
@@ -45,7 +48,8 @@ public class HomePageTestNgListener extends Test_Homepage implements ITestListen
     @Override
     public void onFinish(ITestContext result) {
         log.info(result.getName() + " finished");
-        takeScreenshot();
+        System.out.println(result.getName()+"finished");
+        //takeScreenshot();
 
     }
 }
