@@ -13,10 +13,16 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import org.testng.annotations.Listeners;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.util.ArrayList;
+
 @Listeners(Listener.class)
 public class Method_container {
     static WebDriver driver;
     static int number=1;
+    static String user;
+    static String pass;
 
     public static void initialSetup(ExtentTest test,Logger log) throws Exception
     {
@@ -24,7 +30,7 @@ public class Method_container {
         System.out.println("Q:A :- Open Website");
         test.log(Status.INFO,"Starting of test cases Q:A :- Open Website");
         log.info("Q:A :- Open Website");
-        System.setProperty("webdriver.chrome.driver", "chromedriver-path");
+        System.setProperty("webdriver.chrome.driver", "chromedriver2");
         test.pass("Web driver is initialized successfully");
         driver = new ChromeDriver();
         driver.get("https://automatedhuallocation-ui-urtjok3rza-wl.a.run.app");
@@ -34,20 +40,36 @@ public class Method_container {
         test.pass("Web pages is opened and maximized");
 
     }
+    public static void read_data() throws Exception
+    {
+        String line = "";
+        String splitBy = ",";
+        ArrayList<String> lst = new ArrayList<String>();
+        BufferedReader br = new BufferedReader(new FileReader("src/main/resources/login_details.csv"));
+        String[] data = new String[0];
+        while ((line = br.readLine()) != null) {
+            data = line.split(splitBy);
+            user = data[0];
+            pass = data[1];
+        }
+
+    }
+
     public static boolean loggingin(ExtentTest test,Logger log) throws Exception{
         WebDriverWait wait = new WebDriverWait(driver, 10);
         test.info("login_using username and password");
         System.out.println("Q:B :- get the login username and password");
         log.info("Q:B :- get the login username and password");
+        read_data();
         //Clicked "bank manager login"
         Thread.sleep(2000);
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[1]/div/div[1]/div[3]/div[2]"))).click();
 
         Thread.sleep(2000);
         WebElement email = driver.findElement(By.xpath("/html/body/div[2]/div/div[2]/div/div/div[2]/form/div[1]/div[2]/div/div/input"));
-        email.sendKeys("gheavens2");
-        WebElement pass = driver.findElement(By.xpath("/html/body/div[2]/div/div[2]/div/div/div[2]/form/div[2]/div[2]/div/div/span/input"));
-        pass.sendKeys("password");
+        email.sendKeys(user);
+        WebElement passw = driver.findElement(By.xpath("/html/body/div[2]/div/div[2]/div/div/div[2]/form/div[2]/div[2]/div/div/span/input"));
+        passw.sendKeys(pass);
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/div/div[2]/div/div/div[2]/form/div[3]/div/div/div/button"))).click();
         Thread.sleep(2000);
         boolean Status = driver.findElement(By.xpath("//div[@class='myimg']")).isDisplayed();
