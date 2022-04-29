@@ -35,15 +35,9 @@ public class Tests {
     public void fileSetup(){
 
         System.setProperty("webdriver.chrome.driver",baseClass.chromePath);
-
-
-
-
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get(HomeUrl);
-
-
 
     }
 
@@ -69,11 +63,6 @@ public class Tests {
         productTrackMainPage=new ProductTrackMainPage(driver);
         productTrackMainPage.verifyNumberOfUploadTypes();
     }
-//    @Test(priority = 5)
-//    public void verifyDownloadSampleLink(){
-//        productTrackMainPage=new ProductTrackMainPage(driver);
-//        productTrackMainPage.verifyDownloadSampleLink();
-//    }
 
     @Test(priority = 5)
     public void download() throws InterruptedException {
@@ -141,7 +130,6 @@ public class Tests {
     public void tearDown(){
 
     driver.quit();
-
 
     }
     public static void takeScreenshot() {
