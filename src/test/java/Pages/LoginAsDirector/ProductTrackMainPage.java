@@ -11,6 +11,8 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.annotations.Test;
+
 import java.time.Duration;
 import java.io.File;
 import java.time.Duration;
@@ -54,6 +56,7 @@ public class ProductTrackMainPage {
         List<WebElement> numberOfUploadTypes =driver.findElements(upoloadTypes);
         Assert.assertEquals(numberOfUploadTypes.size(),5);
     }
+
     public void verifyFilesDownloadedOrNot() throws InterruptedException {
         List<WebElement> sampleLinks = driver.findElements(downloadSampleLink);
         ArrayList<String> targets=new ArrayList<String>();

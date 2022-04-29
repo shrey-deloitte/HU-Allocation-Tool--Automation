@@ -135,9 +135,14 @@ public class AllProductsList {
 
       //driver.findElement(By.xpath("//div[@title='dfirpog']")).click();
 
-
        WebElement sendBtnElement = driver.findElement(sendBtn);
        //wait.until(ExpectedConditions.elementToBeClickable(sendBtnElement));
+        for(WebElement ele:radios){
+            if(ele.isSelected()==false && sendBtnElement.isEnabled()==true){
+                Assert.assertTrue(false);
+            }
+        }
+
         sendBtnElement.submit();
 
         driver.findElement(By.xpath("//span[@class='ant-modal-close-x']")).click();
