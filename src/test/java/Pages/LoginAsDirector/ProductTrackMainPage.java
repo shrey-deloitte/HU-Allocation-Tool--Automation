@@ -1,6 +1,7 @@
 package Pages.LoginAsDirector;
 
 
+import Tests.baseClass;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -88,8 +89,7 @@ public class ProductTrackMainPage {
         for(WebElement ele:uploadFields){
             boolean status =ele.isDisplayed() && ele.isEnabled();
             Assert.assertEquals(status,true);
-            ele.sendKeys("C:\\Users\\shubhamkumar32\\Downloads\\linkerdata (1).csv");
-
+            ele.sendKeys(baseClass.linkersDataFilePath);
             sleep(500);
         }
     }

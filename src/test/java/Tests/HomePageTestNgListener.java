@@ -27,7 +27,7 @@ public class HomePageTestNgListener  implements ITestListener {
     public void onTestSuccess(ITestResult result) {
         log.info(result.getMethod().getMethodName() + " success");
         System.out.println(result.getMethod().getMethodName()+"success");
-        test = extent.createTest(result.getMethod().getMethodName(), "Test Description");
+        //test = extent.createTest(result.getMethod().getMethodName(), "Test Description");
         test.log(Status.PASS, result.getMethod().getMethodName() + " success");
        // takeScreenshot();
     }
@@ -36,7 +36,7 @@ public class HomePageTestNgListener  implements ITestListener {
     public void onTestFailure(ITestResult result) {
         log.info(result.getMethod().getMethodName() + " Failed");
         System.out.println(result.getMethod().getMethodName()+"failed");
-        test = extent.createTest(result.getMethod().getMethodName(), "Test Description");
+        //test = extent.createTest(result.getMethod().getMethodName(), "Test Description");
         test.fail(result.getMethod().getMethodName() + " test Fail");
        // takeScreenshot();
     }
