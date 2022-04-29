@@ -303,3 +303,210 @@
 [INFO ] 2022-04-28 18:20:35.245 [TestNG-tests-4] LogSetup - verifyAddNotif start
 [INFO ] 2022-04-28 18:20:36.499 [TestNG-tests-4] LogSetup - verifyAddNotif success
 [INFO ] 2022-04-28 18:20:36.687 [TestNG-tests-4] LogSetup - Login As Director_ProductTrack finished
+[INFO ] 2022-04-28 18:45:16.456 [TestNG-tests-3] LogSetup - A_openTheWebsite start
+[INFO ] 2022-04-28 18:45:16.462 [TestNG-tests-3] extentController - Q:A :- Open Website
+[INFO ] 2022-04-28 18:45:26.527 [TestNG-tests-1] LogSetup - Check_Title start
+[INFO ] 2022-04-28 18:45:26.537 [TestNG-tests-1] LogSetup - Check_Title success
+[INFO ] 2022-04-28 18:45:26.540 [TestNG-tests-1] LogSetup - Carousel start
+[INFO ] 2022-04-28 18:45:27.423 [TestNG-tests-2] LogSetup - linkerLogin start
+[INFO ] 2022-04-28 18:45:27.534 [TestNG-tests-2] LogSetup - linkerLogin success
+[INFO ] 2022-04-28 18:45:27.535 [TestNG-tests-2] LogSetup - Login start
+[INFO ] 2022-04-28 18:45:27.668 [TestNG-tests-1] LogSetup - Carousel success
+[INFO ] 2022-04-28 18:45:27.669 [TestNG-tests-1] LogSetup - GetStarted_Btn start
+[INFO ] 2022-04-28 18:45:28.071 [TestNG-tests-2] LogSetup - Login success
+[INFO ] 2022-04-28 18:45:28.073 [TestNG-tests-2] LogSetup - getNotify start
+[INFO ] 2022-04-28 18:45:28.887 [TestNG-tests-4] LogSetup - loginAvatarClick start
+[INFO ] 2022-04-28 18:45:29.035 [TestNG-tests-3] extentController - Website is opened and window is Maximized
+[INFO ] 2022-04-28 18:45:29.036 [TestNG-tests-3] LogSetup - A_openTheWebsite success
+[INFO ] 2022-04-28 18:45:29.037 [TestNG-tests-3] LogSetup - login start
+[INFO ] 2022-04-28 18:45:29.038 [TestNG-tests-3] extentController - Q:B :- get the login username and password
+[INFO ] 2022-04-28 18:45:29.907 [TestNG-tests-2] LogSetup - getNotify success
+[INFO ] 2022-04-28 18:45:29.908 [TestNG-tests-2] LogSetup - preferenceButton start
+[INFO ] 2022-04-28 18:45:31.327 [TestNG-tests-2] LogSetup - preferenceButton success
+[INFO ] 2022-04-28 18:45:31.329 [TestNG-tests-2] LogSetup - Submit start
+[INFO ] 2022-04-28 18:45:31.401 [TestNG-tests-4] LogSetup - loginAvatarClick success
+[INFO ] 2022-04-28 18:45:31.402 [TestNG-tests-4] LogSetup - Login start
+[INFO ] 2022-04-28 18:45:31.414 [TestNG-tests-2] LogSetup - Submit success
+[INFO ] 2022-04-28 18:45:31.562 [TestNG-tests-2] LogSetup - Login As linker-1 finished
+[INFO ] 2022-04-28 18:45:32.141 [TestNG-tests-5] LogSetup - login start
+[INFO ] 2022-04-28 18:45:32.202 [TestNG-tests-1] LogSetup - GetStarted_Btn success
+[INFO ] 2022-04-28 18:45:32.204 [TestNG-tests-1] LogSetup - Login_icon_button start
+[INFO ] 2022-04-28 18:45:32.433 [TestNG-tests-4] LogSetup - Login success
+[INFO ] 2022-04-28 18:45:32.435 [TestNG-tests-4] LogSetup - clickOnSubmitBtn start
+[INFO ] 2022-04-28 18:45:33.937 [TestNG-tests-4] LogSetup - clickOnSubmitBtn success
+[INFO ] 2022-04-28 18:45:33.939 [TestNG-tests-4] LogSetup - verifyNumberOfUploadTypes start
+[INFO ] 2022-04-28 18:45:34.380 [TestNG-tests-4] LogSetup - verifyNumberOfUploadTypes success
+[INFO ] 2022-04-28 18:45:34.381 [TestNG-tests-4] LogSetup - download start
+[INFO ] 2022-04-28 18:45:34.925 [TestNG-tests-1] LogSetup - Login_icon_button success
+[INFO ] 2022-04-28 18:45:34.926 [TestNG-tests-1] LogSetup - Check_members start
+[INFO ] 2022-04-28 18:45:35.662 [TestNG-tests-3] extentController - Successfully logged in
+[INFO ] 2022-04-28 18:45:35.662 [TestNG-tests-3] LogSetup - login success
+[INFO ] 2022-04-28 18:45:35.663 [TestNG-tests-3] LogSetup - check_performance_graphs start
+[INFO ] 2022-04-28 18:45:35.664 [TestNG-tests-3] extentController - Q:B :- get the login username and password
+[INFO ] 2022-04-28 18:45:36.057 [TestNG-tests-5] ParallelTrack - logged in successfully
+[INFO ] 2022-04-28 18:45:36.057 [TestNG-tests-5] LogSetup - login success
+[INFO ] 2022-04-28 18:45:36.058 [TestNG-tests-5] LogSetup - OpenParallelTrack start
+[INFO ] 2022-04-28 18:45:36.786 [TestNG-tests-3] LogSetup - check_performance_graphs Failed
+[INFO ] 2022-04-28 18:45:36.787 [TestNG-tests-3] LogSetup - set_preferencesTrack start
+[INFO ] 2022-04-28 18:45:36.788 [TestNG-tests-3] extentController - Q:D :- clicking on preference button
+[DEBUG] 2022-04-28 18:45:38.227 [TestNG-tests-3] extentController - setting set
+[INFO ] 2022-04-28 18:45:38.227 [TestNG-tests-3] LogSetup - set_preferencesTrack success
+[INFO ] 2022-04-28 18:45:38.228 [TestNG-tests-3] LogSetup - set_preferencesMonth start
+[INFO ] 2022-04-28 18:45:38.229 [TestNG-tests-3] extentController - Q:D :- clicking on preference button
+[INFO ] 2022-04-28 18:45:39.119 [TestNG-tests-5] ParallelTrack - Parallel track opened
+[INFO ] 2022-04-28 18:45:39.119 [TestNG-tests-5] LogSetup - OpenParallelTrack success
+[INFO ] 2022-04-28 18:45:39.120 [TestNG-tests-5] LogSetup - downloadSample start
+[INFO ] 2022-04-28 18:45:39.452 [TestNG-tests-3] LogSetup - set_preferencesMonth Failed
+[INFO ] 2022-04-28 18:45:39.453 [TestNG-tests-3] extentController - Browser is getting closed
+[INFO ] 2022-04-28 18:45:39.602 [TestNG-tests-3] LogSetup - Login As linker-2 finished
+[INFO ] 2022-04-28 18:45:41.243 [TestNG-tests-4] LogSetup - download success
+[INFO ] 2022-04-28 18:45:41.244 [TestNG-tests-4] LogSetup - uploadFiles start
+[INFO ] 2022-04-28 18:45:41.999 [TestNG-tests-5] ParallelTrack - Downloaded all sample links
+[INFO ] 2022-04-28 18:45:42.000 [TestNG-tests-5] LogSetup - downloadSample success
+[INFO ] 2022-04-28 18:45:42.000 [TestNG-tests-5] LogSetup - chooseFile start
+[INFO ] 2022-04-28 18:45:42.131 [TestNG-tests-5] ParallelTrack - Uploaded all sample data
+[INFO ] 2022-04-28 18:45:42.131 [TestNG-tests-5] LogSetup - chooseFile success
+[INFO ] 2022-04-28 18:45:42.132 [TestNG-tests-5] LogSetup - showUploadedFile start
+[INFO ] 2022-04-28 18:45:43.964 [TestNG-tests-4] LogSetup - uploadFiles success
+[INFO ] 2022-04-28 18:45:43.965 [TestNG-tests-4] LogSetup - verifyShowUploadBtns start
+[INFO ] 2022-04-28 18:45:44.253 [TestNG-tests-1] LogSetup - Check_members success
+[INFO ] 2022-04-28 18:45:44.253 [TestNG-tests-1] LogSetup - Click_logo start
+[INFO ] 2022-04-28 18:45:48.125 [TestNG-tests-1] LogSetup - Click_logo success
+[INFO ] 2022-04-28 18:45:48.240 [TestNG-tests-1] LogSetup - HomePage Test finished
+[INFO ] 2022-04-28 18:45:54.517 [TestNG-tests-5] LogSetup - showUploadedFile Failed
+[INFO ] 2022-04-28 18:45:54.517 [TestNG-tests-5] LogSetup - performAnalysisButton start
+[INFO ] 2022-04-28 18:45:56.732 [TestNG-tests-5] ParallelTrack - perform analysis button clicked 
+[INFO ] 2022-04-28 18:45:56.732 [TestNG-tests-5] LogSetup - performAnalysisButton success
+[INFO ] 2022-04-28 18:45:56.733 [TestNG-tests-5] LogSetup - search start
+[INFO ] 2022-04-28 18:46:02.837 [TestNG-tests-5] ParallelTrack - dropdowns checked
+[INFO ] 2022-04-28 18:46:02.837 [TestNG-tests-5] LogSetup - search success
+[INFO ] 2022-04-28 18:46:02.838 [TestNG-tests-5] LogSetup - editTeamTrack start
+[INFO ] 2022-04-28 18:46:05.860 [TestNG-tests-5] LogSetup - editTeamTrack Failed
+[INFO ] 2022-04-28 18:46:05.861 [TestNG-tests-5] LogSetup - drag_and_drop start
+[INFO ] 2022-04-28 18:46:05.871 [TestNG-tests-5] ParallelTrack - drag and dropped
+[INFO ] 2022-04-28 18:46:05.871 [TestNG-tests-5] LogSetup - drag_and_drop success
+[INFO ] 2022-04-28 18:46:06.054 [TestNG-tests-5] LogSetup - ogin As Director_ParallelTrack finished
+[INFO ] 2022-04-28 18:46:14.549 [TestNG-tests-4] LogSetup - verifyShowUploadBtns success
+[INFO ] 2022-04-28 18:46:14.550 [TestNG-tests-4] LogSetup - verifyAddNewProjectBtn start
+[INFO ] 2022-04-28 18:46:15.578 [TestNG-tests-4] LogSetup - verifyAddNewProjectBtn success
+[INFO ] 2022-04-28 18:46:15.579 [TestNG-tests-4] LogSetup - verifyPerformAnalysisBtn start
+[INFO ] 2022-04-28 18:46:19.303 [TestNG-tests-4] LogSetup - verifyPerformAnalysisBtn success
+[INFO ] 2022-04-28 18:46:19.303 [TestNG-tests-4] LogSetup - countOfAllProducts start
+[INFO ] 2022-04-28 18:46:19.850 [TestNG-tests-4] LogSetup - countOfAllProducts success
+[INFO ] 2022-04-28 18:46:19.850 [TestNG-tests-4] LogSetup - verifyProductLeadBtn start
+[INFO ] 2022-04-28 18:46:23.227 [TestNG-tests-4] LogSetup - verifyProductLeadBtn success
+[INFO ] 2022-04-28 18:46:23.228 [TestNG-tests-4] LogSetup - verifyEditProductTeam start
+[INFO ] 2022-04-28 18:46:23.525 [TestNG-tests-4] LogSetup - verifyEditProductTeam success
+[INFO ] 2022-04-28 18:46:23.526 [TestNG-tests-4] LogSetup - verifyPieChart start
+[INFO ] 2022-04-28 18:46:23.684 [TestNG-tests-4] LogSetup - verifyPieChart success
+[INFO ] 2022-04-28 18:46:23.685 [TestNG-tests-4] LogSetup - verifyAddNotif start
+[INFO ] 2022-04-28 18:46:24.884 [TestNG-tests-4] LogSetup - verifyAddNotif success
+[INFO ] 2022-04-28 18:46:25.077 [TestNG-tests-4] LogSetup - Login As Director_ProductTrack finished
+[INFO ] 2022-04-28 18:49:06.941 [main] ParallelTrack - logged in successfully
+[INFO ] 2022-04-28 18:49:09.993 [main] ParallelTrack - Parallel track opened
+[INFO ] 2022-04-28 18:49:12.886 [main] ParallelTrack - Downloaded all sample links
+[INFO ] 2022-04-28 18:49:13.018 [main] ParallelTrack - Uploaded all sample data
+[INFO ] 2022-04-28 18:49:28.527 [main] ParallelTrack - Show data buttons clicked
+[INFO ] 2022-04-28 18:49:30.747 [main] ParallelTrack - perform analysis button clicked 
+[INFO ] 2022-04-28 18:49:36.879 [main] ParallelTrack - dropdowns checked
+[INFO ] 2022-04-28 18:49:39.909 [main] ParallelTrack - drag and dropped
+[INFO ] 2022-04-29 07:35:59.740 [TestNG-tests-3] LogSetup - A_openTheWebsite start
+[INFO ] 2022-04-29 07:35:59.757 [TestNG-tests-3] extentController - Q:A :- Open Website
+[INFO ] 2022-04-29 07:37:09.671 [TestNG-tests-4] LogSetup - loginAvatarClick start
+[INFO ] 2022-04-29 07:37:11.130 [TestNG-tests-3] extentController - Website is opened and window is Maximized
+[INFO ] 2022-04-29 07:37:11.132 [TestNG-tests-3] LogSetup - A_openTheWebsite success
+[INFO ] 2022-04-29 07:37:11.135 [TestNG-tests-3] LogSetup - login start
+[INFO ] 2022-04-29 07:37:11.137 [TestNG-tests-3] extentController - Q:B :- get the login username and password
+[INFO ] 2022-04-29 07:37:11.308 [TestNG-tests-1] LogSetup - Check_Title start
+[INFO ] 2022-04-29 07:37:11.324 [TestNG-tests-1] LogSetup - Check_Title success
+[INFO ] 2022-04-29 07:37:11.326 [TestNG-tests-1] LogSetup - Carousel start
+[INFO ] 2022-04-29 07:37:11.844 [TestNG-tests-2] LogSetup - linkerLogin start
+[INFO ] 2022-04-29 07:37:11.950 [TestNG-tests-2] LogSetup - linkerLogin success
+[INFO ] 2022-04-29 07:37:11.952 [TestNG-tests-2] LogSetup - Login start
+[INFO ] 2022-04-29 07:37:12.069 [TestNG-tests-4] LogSetup - loginAvatarClick success
+[INFO ] 2022-04-29 07:37:12.071 [TestNG-tests-4] LogSetup - Login start
+[INFO ] 2022-04-29 07:37:12.392 [TestNG-tests-2] LogSetup - Login success
+[INFO ] 2022-04-29 07:37:12.394 [TestNG-tests-2] LogSetup - getNotify start
+[INFO ] 2022-04-29 07:37:12.485 [TestNG-tests-1] LogSetup - Carousel success
+[INFO ] 2022-04-29 07:37:12.486 [TestNG-tests-1] LogSetup - GetStarted_Btn start
+[INFO ] 2022-04-29 07:37:12.538 [TestNG-tests-4] LogSetup - Login success
+[INFO ] 2022-04-29 07:37:12.539 [TestNG-tests-4] LogSetup - clickOnSubmitBtn start
+[INFO ] 2022-04-29 07:37:14.837 [TestNG-tests-4] LogSetup - clickOnSubmitBtn success
+[INFO ] 2022-04-29 07:37:14.838 [TestNG-tests-4] LogSetup - verifyNumberOfUploadTypes start
+[INFO ] 2022-04-29 07:37:14.857 [TestNG-tests-2] LogSetup - getNotify success
+[INFO ] 2022-04-29 07:37:14.858 [TestNG-tests-2] LogSetup - preferenceButton start
+[INFO ] 2022-04-29 07:37:14.905 [TestNG-tests-5] LogSetup - login start
+[INFO ] 2022-04-29 07:37:14.933 [TestNG-tests-4] LogSetup - verifyNumberOfUploadTypes success
+[INFO ] 2022-04-29 07:37:14.934 [TestNG-tests-4] LogSetup - download start
+[INFO ] 2022-04-29 07:37:15.873 [TestNG-tests-2] LogSetup - preferenceButton success
+[INFO ] 2022-04-29 07:37:15.874 [TestNG-tests-2] LogSetup - Submit start
+[INFO ] 2022-04-29 07:37:15.980 [TestNG-tests-2] LogSetup - Submit success
+[INFO ] 2022-04-29 07:37:16.069 [TestNG-tests-2] LogSetup - Login As linker-1 finished
+[INFO ] 2022-04-29 07:37:16.969 [TestNG-tests-1] LogSetup - GetStarted_Btn success
+[INFO ] 2022-04-29 07:37:16.971 [TestNG-tests-1] LogSetup - Login_icon_button start
+[INFO ] 2022-04-29 07:37:17.988 [TestNG-tests-3] extentController - Successfully logged in
+[INFO ] 2022-04-29 07:37:17.989 [TestNG-tests-3] LogSetup - login success
+[INFO ] 2022-04-29 07:37:17.989 [TestNG-tests-3] LogSetup - check_performance_graphs start
+[INFO ] 2022-04-29 07:37:17.990 [TestNG-tests-3] extentController - Q:B :- get the login username and password
+[INFO ] 2022-04-29 07:37:18.638 [TestNG-tests-5] ParallelTrack - logged in successfully
+[INFO ] 2022-04-29 07:37:18.639 [TestNG-tests-5] LogSetup - login success
+[INFO ] 2022-04-29 07:37:18.640 [TestNG-tests-5] LogSetup - OpenParallelTrack start
+[INFO ] 2022-04-29 07:37:19.069 [TestNG-tests-3] LogSetup - check_performance_graphs Failed
+[INFO ] 2022-04-29 07:37:19.075 [TestNG-tests-3] LogSetup - set_preferencesTrack start
+[INFO ] 2022-04-29 07:37:19.076 [TestNG-tests-3] extentController - Q:D :- clicking on preference button
+[INFO ] 2022-04-29 07:37:19.577 [TestNG-tests-1] LogSetup - Login_icon_button success
+[INFO ] 2022-04-29 07:37:19.578 [TestNG-tests-1] LogSetup - Check_members start
+[DEBUG] 2022-04-29 07:37:20.586 [TestNG-tests-3] extentController - setting set
+[INFO ] 2022-04-29 07:37:20.587 [TestNG-tests-3] LogSetup - set_preferencesTrack success
+[INFO ] 2022-04-29 07:37:20.588 [TestNG-tests-3] LogSetup - set_preferencesMonth start
+[INFO ] 2022-04-29 07:37:20.589 [TestNG-tests-3] extentController - Q:D :- clicking on preference button
+[INFO ] 2022-04-29 07:37:21.281 [TestNG-tests-4] LogSetup - download success
+[INFO ] 2022-04-29 07:37:21.283 [TestNG-tests-4] LogSetup - uploadFiles start
+[INFO ] 2022-04-29 07:37:21.704 [TestNG-tests-5] ParallelTrack - Parallel track opened
+[INFO ] 2022-04-29 07:37:21.705 [TestNG-tests-5] LogSetup - OpenParallelTrack success
+[INFO ] 2022-04-29 07:37:21.708 [TestNG-tests-5] LogSetup - downloadSample start
+[INFO ] 2022-04-29 07:37:21.852 [TestNG-tests-3] LogSetup - set_preferencesMonth Failed
+[INFO ] 2022-04-29 07:37:21.855 [TestNG-tests-3] extentController - Browser is getting closed
+[INFO ] 2022-04-29 07:37:22.036 [TestNG-tests-3] LogSetup - Login As linker-2 finished
+[INFO ] 2022-04-29 07:37:24.134 [TestNG-tests-4] LogSetup - uploadFiles success
+[INFO ] 2022-04-29 07:37:24.135 [TestNG-tests-4] LogSetup - verifyShowUploadBtns start
+[INFO ] 2022-04-29 07:37:24.653 [TestNG-tests-5] ParallelTrack - Downloaded all sample links
+[INFO ] 2022-04-29 07:37:24.654 [TestNG-tests-5] LogSetup - downloadSample success
+[INFO ] 2022-04-29 07:37:24.655 [TestNG-tests-5] LogSetup - chooseFile start
+[INFO ] 2022-04-29 07:37:24.837 [TestNG-tests-5] ParallelTrack - Uploaded all sample data
+[INFO ] 2022-04-29 07:37:24.838 [TestNG-tests-5] LogSetup - chooseFile success
+[INFO ] 2022-04-29 07:37:24.838 [TestNG-tests-5] LogSetup - showUploadedFile start
+[INFO ] 2022-04-29 07:37:29.022 [TestNG-tests-1] LogSetup - Check_members success
+[INFO ] 2022-04-29 07:37:29.022 [TestNG-tests-1] LogSetup - Click_logo start
+[INFO ] 2022-04-29 07:37:33.229 [TestNG-tests-1] LogSetup - Click_logo success
+[INFO ] 2022-04-29 07:37:33.327 [TestNG-tests-1] LogSetup - HomePage Test finished
+[INFO ] 2022-04-29 07:37:40.445 [TestNG-tests-5] ParallelTrack - Show data buttons clicked
+[INFO ] 2022-04-29 07:37:40.445 [TestNG-tests-5] LogSetup - showUploadedFile success
+[INFO ] 2022-04-29 07:37:40.446 [TestNG-tests-5] LogSetup - performAnalysisButton start
+[INFO ] 2022-04-29 07:37:42.728 [TestNG-tests-5] ParallelTrack - perform analysis button clicked 
+[INFO ] 2022-04-29 07:37:42.729 [TestNG-tests-5] LogSetup - performAnalysisButton success
+[INFO ] 2022-04-29 07:37:42.730 [TestNG-tests-5] LogSetup - search start
+[INFO ] 2022-04-29 07:37:48.870 [TestNG-tests-5] ParallelTrack - dropdowns checked
+[INFO ] 2022-04-29 07:37:48.870 [TestNG-tests-5] LogSetup - search success
+[INFO ] 2022-04-29 07:37:48.871 [TestNG-tests-5] LogSetup - editTeamTrack start
+[INFO ] 2022-04-29 07:37:51.893 [TestNG-tests-5] LogSetup - editTeamTrack Failed
+[INFO ] 2022-04-29 07:37:51.894 [TestNG-tests-5] LogSetup - drag_and_drop start
+[INFO ] 2022-04-29 07:37:51.915 [TestNG-tests-5] ParallelTrack - drag and dropped
+[INFO ] 2022-04-29 07:37:51.915 [TestNG-tests-5] LogSetup - drag_and_drop success
+[INFO ] 2022-04-29 07:37:52.293 [TestNG-tests-5] LogSetup - ogin As Director_ParallelTrack finished
+[INFO ] 2022-04-29 07:37:54.892 [TestNG-tests-4] LogSetup - verifyShowUploadBtns success
+[INFO ] 2022-04-29 07:37:54.893 [TestNG-tests-4] LogSetup - verifyAddNewProjectBtn start
+[INFO ] 2022-04-29 07:37:55.940 [TestNG-tests-4] LogSetup - verifyAddNewProjectBtn success
+[INFO ] 2022-04-29 07:37:55.941 [TestNG-tests-4] LogSetup - verifyPerformAnalysisBtn start
+[INFO ] 2022-04-29 07:37:59.728 [TestNG-tests-4] LogSetup - verifyPerformAnalysisBtn success
+[INFO ] 2022-04-29 07:37:59.729 [TestNG-tests-4] LogSetup - countOfAllProducts start
+[INFO ] 2022-04-29 07:38:01.113 [TestNG-tests-4] LogSetup - countOfAllProducts Failed
+[INFO ] 2022-04-29 07:38:01.114 [TestNG-tests-4] LogSetup - verifyProductLeadBtn start
+[INFO ] 2022-04-29 07:38:05.267 [TestNG-tests-4] LogSetup - verifyProductLeadBtn success
+[INFO ] 2022-04-29 07:38:05.269 [TestNG-tests-4] LogSetup - verifyEditProductTeam start
+[INFO ] 2022-04-29 07:38:05.671 [TestNG-tests-4] LogSetup - verifyEditProductTeam success
+[INFO ] 2022-04-29 07:38:05.672 [TestNG-tests-4] LogSetup - verifyPieChart start
+[INFO ] 2022-04-29 07:38:05.841 [TestNG-tests-4] LogSetup - verifyPieChart success
+[INFO ] 2022-04-29 07:38:05.842 [TestNG-tests-4] LogSetup - verifyAddNotif start
+[INFO ] 2022-04-29 07:38:07.323 [TestNG-tests-4] LogSetup - verifyAddNotif success
+[INFO ] 2022-04-29 07:38:07.499 [TestNG-tests-4] LogSetup - Login As Director_ProductTrack finished
